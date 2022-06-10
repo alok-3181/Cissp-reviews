@@ -1,0 +1,419 @@
+Cryptography
+	- first recorded encryption ATBASH 
+	- egyptian 
+	- substitution ciphers
+		- monoalphabetic
+			- Scytale Cipher
+			- Caesar Cipher
+				- rotated 3 characters
+			- ROT13
+				- rotated 13 characters
+		- polyalphabetic
+			- multiple alphabets
+			- Vigenere Cipher
+			
+Algorithm
+	- a set of mathematical rules, used to create the encryption function
+		within a cryptosystem
+Cipher
+	- algorithm
+Cryptography
+	- science of secret writing
+Cryptosystem
+	- hardware and or software implementation of cryptography 
+		(protocols, keys, physical infrastructure, etc)
+Cryptanalysis
+	- the practice of uncovering flaws in cryptosystems
+Cryptology
+	- the study of cryptography and cryptanalysis
+Encipher
+	- to apply cryptography to data (plaintext to ciphertext)
+Decipher
+	- to apply cryptography to data (ciphertext to plaintext)
+Key
+	- a sequence of bit to be used to create the instructions to 
+		control the cryptographic function through an algorithm
+Key Clustering
+	- when two different keys generate the same ciphertext from the same plaintext
+Key Space
+	- range of possible values that are used to create the keys for the cryptosystem
+Plaintext
+	- unencrypted text
+Ciphertext
+	- encrypted plaintext
+Substitution Cipher
+	- 
+Scytale Cipher
+
+Caesar Cipher
+
+Vigenere Cipher
+
+Kerckhoff's Principle
+	- the algorithm (cryptosystem) should be known
+	- only the key needs to be kept secret
+William Frederick Friedman
+	- the father of modern cryptography
+	- "The Index of Coincidence and It's Application in Cryptography"
+
+One-time Pad
+    - Only unbreakable encryption system
+    - Relies on a series of one-time codes. 
+    - Recipient must have the same sequence of codes as the sender
+    - Codes are not re-used
+	- Keys need to be randomly generated
+Running Ciphers
+	- we can use keys that don't require electronically generated keys
+	- use things around us to generate keys (book, newspaper, etc)
+Concealment Ciphers
+	- put message inside another message
+	
+Steganography
+	- Hiding data inside another medium
+	- Carrier
+		- the data stream that has the information hiden within it
+	- Stegomedium
+		- where the data is hidden
+	- Payload
+		- the information that needs to be hidden
+	- Least Significant Bit
+		- where we can hide the data within the stegomedium
+
+Substitution Ciphers
+    - Ceasar Cipher
+    - Shifted/Rotated the alphabet by a certain number of spaces (3)
+	- ROT13 rotated by thirteen
+
+Transposition Cipher
+    - Re-ordering of plaintext
+    - dictionary = idtcoianyr
+
+Key Derivation Function (KDF)
+	- using a function to generate keys that are randomly made
+	
+Number Generator
+	- mathematical systems used to generate random numbers
+	
+Symmetric Key
+    - Single Key
+    - Same key used for encryption and decryption
+    - Key must be securely exchanged between sender/recipient
+    - Fastest encryption technique
+    - Block
+        - DES     (56-bit key)
+        - 3DES    (168-bit key)
+        - AES     (128 or 256-bit key)
+        - IDEA    (128-bit key)
+        - RC5/RC6 (Variable 64 to 256-bit key)
+    - Stream
+        - RC4
+
+Asymmetric Key
+    - Public/Private Key
+    - Key Pair
+    - Computationally infeasible to derive the private key from the public key
+    - Examples
+        - RSA
+            - Based on factoring the product of two large prime numbers
+			- named using the first letter of the last name of the founders
+				- Rivest
+				- Shamir
+				- Adleman
+        - Diffie-Hellman
+            - Used for key exchange
+        - Elliptic Curve (EC)
+        - El Gamal
+	
+Stream Ciphers
+    - Continuous stream of plaintext
+    - Video and audio are typically encrypted with stream ciphers
+
+Block Cipher
+    - Fixed size blocks of plaintext (block sizes vary)
+	- Generally done in hardware due to resource requirements
+
+Initialization Vector (IV)
+    - Random Numbers
+    - Used for starting value and re-encryption
+
+Hybrid Systems
+	- Key Exchange
+	- Uses both symmetric and asymmetric solutions
+	- Asymmetric used for key exchange
+	- Once the key exchange is done, we can then use symmetric for everything else.
+
+DES
+	- 64-bit total 56-bit actual
+		- 56-bit true key
+		- 8-bit parity
+	- Symmetric block encryption algorithm
+		- 16 rounds of transposition and substitution (XORing)
+	- DES modes
+		- Electronic Code Book (ECB)
+			- 64-bit block data in + key = ciphertext out
+			- For given block of plaintext and given key, we get same block 
+				of ciphertext always produced
+			- not all plaintext comes in 64 bit blocks, so must be padded to create 
+				64 bit blocks
+			- can be run in parallel
+			- errors are limited to the block being operated on
+			- only usable for short messages
+		- Cipher Block Chaining (CBC)
+			- overcomes issue of pattern recognition found in ECB
+			- results of one block are XORed with the next block before encrypting
+			- errors can ripple through encryption of other blocks
+		- Cipher Feedback (CFB)
+			- combine block cipher and stream cipher together
+				- initialization vector + algorithm is used to create a key stream
+					 to be able to encrypt the data
+		- Output Feedback (OFB)
+			- block cipher that emulates a stream cipher
+		- Counter Mode (CTR)
+			- same as OFB, but instead of random IV's
+			- uses an IV counter to increment IV's
+3DES
+	- Modes
+		- DES-EEE3
+			- three different keys for encryption
+			- data encrypted three different times
+		- DES-EDE3
+			- three different keys for encryption
+			- data is encrypted, decrypted, and then encrypted again
+		- DES-EEE2
+			- same as DES-EEE3 except we use two keys instead of three
+				and the first and third encryption runs use the same key
+		- DES-EDE2
+			- same as DES-EDE3 except we use two keys instead of three
+				and the first and third encryption runs use the same key
+	
+AES
+	- symmetric block cipher
+	- supports 128, 192 and 256-bit solutions
+		- if both key and block are 128-bit, then there are 10 rounds
+		- if both key and block are 192 bit, then there are 12 rounds
+		- if both key and block are 256 bit, then there are 14 rounds
+	
+IDEA
+	- 64-bit block cipher
+	- 128-bit key
+	
+Blowfish
+	- 64-bit block cipher
+	- key size varies from 32-bit to 448-bit 
+	
+RC4
+	- stream cipher
+	- variable key size
+	- used in SSL protocol
+	
+RC5
+	- block cipher
+	- key size up to 2048-bit
+	- created by Ron Rivest (RSA)
+	
+RC6
+	- block cipher
+	- built on RC5
+	
+- Asymmetric Algorithms
+	- Diffie-Hellman
+		- Two systems can generate a symmetric key securely without requiring a previous relationship.
+		- Used for key distribution
+		- Algorithm is based on the difficulty of calculating discrete logarithms in a finite field.
+	- RSA
+		- Named for Ron Rivest, Adi Shamir, and Leonard Adleman
+		- Security of RSA algorithm comes from the difficulty of factoring large numbers into their original primes.
+	- One-way Functions
+		- A mathematical function that is easier to compute in one direction than in the opposite direction. 
+		- Trap door
+	- El Gamal
+		- Public key algorithm used for digital signatures, encryption and key exchange. 
+	- Elliptic Curve Cryptosystems (ECC)
+		- Similar to RSA
+		- Provides digital signature, secure key distribution and encryption.
+		- More efficient than RSA by requiring a smaller key size. 
+	- Zero Knowledge Proof
+		- Equivalent of need-to-know.
+	- One-way Hash
+		- Variable length text + hashing algorithm = fixed bit output as a hash. 
+		- Provides integrity
+			- A guarantee that the data has not been modified
+			- If the data is unchanged, the result of the hash will always be the same.
+			- Trip-wire solution. 
+			- Any change will cause the results to be different.
+		- Common Algorithms
+			- MD5 (Entire MD Series outputs at 128-bit)
+				- Creates 128-bit output
+			- SHA-1 (Bit output is same as number designation)
+				- Creates 160-bit output
+				- SHA-512 is 512 bits
+				- SHA-256 is 256 bits
+		- Example
+			Plaintext - Starbucks
+			MD5 	  - E486AECA0B12918313ABA2CC445C5CB4
+			SHA-1     - CB232A7A7077AA499F78CCDD5B4238A3FF1A4DCD
+			SHA-512   - 41A41F49F2109594C38CC00B1AA9460FF8BE713B
+						EA4E7D5D8DF8BBD1B958A93541543F3059149796
+						94442D427F42C7681F755E3466B56CA064642BBF
+						38044F61
+			MD5 "Starbuicks" - C7DFA4BB1066A37703ACB4AE7C7376F1
+			MD5 "Starbucks"  - E486AECA0B12918313ABA2CC445C5CB4
+		- Message Authentication Codes (MAC)
+			- Authentication scheme derived by applying a secret key to a message in some form. 
+			- Does not necessarily mean the symmetric key is used to encrypt the message. 
+			- Three types
+				- Hash
+					- Provides integrity
+					- Steps
+						1) Sender uses a hashing algorithm on plaintext to generate a MD
+						2) Plaintext and MD are sent to the receiver
+						3) Receiver uses the same algorithm on plaintext to generate a new MD
+						4) Receiver compares the two MD's to verify they are identical
+				- HMAC
+					- Hashed Message Authentication Code (HMAC)
+					- Provides integrity and origin authentication
+					- Steps
+						1) Sender uses a hashing algorithm on plaintext and a secret key to generate a MAC
+						2) Plaintext and MAC are sent to the receiver
+						3) Receiver uses the same algorithm on plaintext and their own symmetric key to generate a new MAC
+						4) Receiver compares the two MAC's to verify they are identical
+				- CBC-MAC/CMAC
+					- Cipher Block Chaining Message Authentication Code (CBC-MAC) 
+					- Cipher-Based Message Authentication Code (CMAC)
+						- Similar to CBC-MAC except it uses a more complex algorithm.
+					- Provides integrity and origin authentication
+					- Steps
+						1) Sender uses a symmetric block algorithm on plaintext to generate ciphertext. The last block is the MAC. 
+						2) Plaintext and MAC are sent to the receiver
+						3) Receiver uses the same symmetric block algorithm on plaintext to generate ciphertext.
+						4) Receiver compares the final block (the MAC) to verify they are identical
+		- Attacks against one-way hash functions
+			- Attacks are designed to force collisions which happen when two distinctly different messages produce the same hash value. 
+			- Birthday attack
+				- Question: How many people must be in the same room for the chance to be greater than even that another person has the same birthday as you?
+				- Answer: 253
+				- Question: How many people must be in the same room for the chance to be greater than even that at least two people share the same birthday?
+				- Answer: 23
+- Digital Signatures
+	- A hash value that has been encrypted with the senders private key.
+	- What are the security services available within cryptography?
+		- Encrypt = Confidentiality
+		- Hash = Integrity
+		- Digital Signature = Authentication, Non-Repudiation (proof of origin) and Integrity
+		- Encrypt and Digitally Sign = Authentication, Confidentiality, Non-Repudiation and Integrity
+
+*** Cryptography Chart ***
+https://docs.google.com/spreadsheet/ccc?key=0Aq247P3oQPVMdGtnUk45UXc4UWlsdEdibWVFcUhUUkE&usp=sharing
+
+- Public Key Infrastructure (PKI)
+	- Establishes a level of trust within an enterprise
+	- x.509 v3 is the digital certificate standard
+	- PKI provides authentication, confidentiality, non-repudiation and integrity for all messages exchanged. 
+	- Hybrid system using both symmetric and asymmetric algorithms.
+	- Certificate structure: http://technet.microsoft.com/en-us/library/cc737264(v=ws.10).aspx
+
+	- Building Blocks
+		- Certificate Authority (CA)
+			- Root CA
+				- Enterprise (Attached to an LDAP directory)
+				- Standalone
+			- Subordinate CA
+				- Child to a Root CA
+			- Registration Authority (RA)
+				- Handles inbound requests
+				- Validates information before presenting it to a CA
+				- Brokers the registration between user and CA
+			- Certificate Revocation List (CRL)
+			- On-line Certificate Status Protocol (OCSP )
+- Key management
+	- Responsibilities include:
+		- Key length should be long enough to provide necessary protection
+		- Keys should be stored and transmitted securely
+		- Keys should be random and the algorithm should use the full keyspace. 
+		- Key lifetime should correspond to sensitivity of data.
+		- The more the key is used, the shorter the life. 
+		- Keys should be escrowed.
+		- Keys should be destroyed at end of life-cycle.
+	- Trusted Platform Module (TPM)
+		- Microchip dedicated to carrying out security functions involving the storage and processing of asymmetric and symmetric keys, hashes and digital certificates. 
+- Link Encryption vs End-to-end Encryption
+	- Link Encryption encrypts all of the data along a specific communications path
+		- Examples
+			- Telephone Line
+			- T Carriers
+	- End-to-end Encryption does not encrypt the addresses, headers, routing and trailer information
+- Encryption at different layers
+	- End-to-end is layer 7 (Application)
+	- SSL is layer 4 (Transport)
+	- PPTP is layer 2 (Data-Link)
+	- Link encryption is layer 1 and 2 (Physical and Data-Link)
+- Multipurpose Internet Mail Extension (MIME)
+- S/MIME
+	-Secure MIME
+	- Encryption and digital signatures for mail
+- Pretty Good Privacy (PGP)
+	- Phil Zimmerman
+	- A complete cryptosystem using cryptography to protect e-mail and files. 
+- Quantum cryptography
+	- Photon polarization is used to represent ones and zeros.
+	- Photons are the particles that make up light.
+	
+- HTTPS vs S-HTTP
+        - HTTPS protects the communication channel between two nodes. 
+                - Typically SSL with TLS
+        - S-HTTP protects each message sent between two nodes.
+- Cookies
+        - Text files that are maintained by a web browser
+        - Stored on local machine to cache user information
+- IPSec
+        - The IPSec Process:http://technet.microsoft.com/en-us/library/cc776080(v=ws.10).aspx
+        - Components
+                - Authentication Header (AH)
+                - Encapsulating Security Payload (ESP)
+                - Tunnel Mode (on WAN)
+                - Transport Mode (on LAN)
+                - Security Association (SA)
+- unidirectional
+- need one in each direction
+                - Security Parameter Index (SPI)
+- brokers SA's
+                - Internet Key Exchange (IKE)
+                        - Internet Security Association and 
+Key Management Protocol (ISAKMP)
+                        - OAKLEY Protocol
+                        ** Simple key management protocol for IP (SKIP) Similar to IKE
+                        ** All key management protocols work at the network layer (L3)
+
+- Attacks Against Cryptosystems
+        - Ciphertext Only
+- start with ciphertext
+- don't have key or plaintext
+        - Known Plaintext
+- have the plaintext version and ciphertext
+        - Chosen Plaintext
+- same as known plaintext, except we choose plaintext input
+        - Chosen Ciphertext
+- same as chosen plaintext, except we choose ciphertext
+        - Differential Cryptanalysis
+- look at differences in the keys that are used to encrypt
+        - Linear Cryptanalysis
+- look at the functions that might yield results
+        - Side Channel
+- trying to break encryption by looking at the cryptosystem itself
+- things like power levels, EMI
+        - Replay
+- capture something, send again at later time
+- Man in the Middle
+        - Algebraic
+- look at the algorithms themselves for vulnerabilities
+- mainly the math part of the algorithm
+        - Analytic
+- structure of algorithm
+- like how its implemented
+        - Statistical
+- identify statistical weaknesses
+        - Social Engineering
+- getting someone to give up secret info
+- keys, etc
+        - Meet-in-the-Middle
+- attack from both sides, plaintext and ciphertext

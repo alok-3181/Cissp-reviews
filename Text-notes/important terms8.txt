@@ -1,0 +1,49 @@
+cybersquatting is an intellectual proprty attack.focusing on trademark
+Typosquatting is an intellectual property attack focus on trademark
+piracy attack focus on copyrights.
+chinese wall model is also known as brewer-nash model is used to mitigate conflict of interest.
+Bluetooth uses weak encryption ciper, E0-128bit key
+sensitive data exposure risk increase between 2013-1027 accoridng to OWASP Top 10 list
+TACACS+ encrypts username and password.
+ECB mode in DES can leave patterns in ciphertext
+another name for hypervisor is virtual machine monitor
+in brute force attack, attacker has access only to the cipher text.
+T1 line for circuit switched WAN as it needs dedicated circuit.
+RAID 10 provides striping for a set of mirrored disks
+rlogin, ftp and tel net are not encrypted
+CPU process stage- fetch, decode, execute and write
+standards define the technical aspects of a security program.
+exigent circumstances - can seize evidence withouta warrant in irder to protect evidence
+corrective access control- to repair demages(antivirus/IPS
+recovery access control- resore to normal state after malicious activity has occured.
+Roation of duties- expensive to implement due to training cost
+confiscate meaning is take/ seize someone's property with authorty
+state attack - race condition( toctou)
+a lockdown enclosure is designed to prevent theft of computer equipment.
+polyinstantiation is an OOPS concept in which two objects based on the same class can process data independently.
+TFTP port 69
+Lipnet model combines bell lapudula and Biba
+SHA can create maxmimum 512 bit hash value.
+latest means last.
+BCP stages- 1. develop bcp statement, 2. conduct BIA.3. idenitfy preventive control,4. develop recovery stragey
+5.develop an IT contigncy plan , 6. Perform DRP training and testing , 7. Perdorm bcp/dr maintance
+Tripwire is a HIDS
+In security domains , subjects and objects have same security requirements
+Pharming attackes are DNS related.
+skimming attack-unauthorized device that can be attached to credit/debit card devices.
+keyboard interactive for SSH authentication.
+2SA's are required to establish a vpn tunnel. for two sites- 4 SA Required
+security marking reflects applicable laws, directives , polices....
+security marking refers to the use of human readable seurity attributes.security labling refers security attributes for internal
+data structre within informaiton system.
+Vigenere cipher uses square matrix to encrypt text.
+FM 200 used for gas based fire suppresin in data center.
+multi homed device means more than one network connection in firewall.	
+AH is typically used with ESP in transport mode, not in tunnel mode bcoz Ip headers are encrypoted.
+realtion is another name for table in relational database.
+Defects density is a metric determines the aveerage number of defects per line of code.
+Risk density is a secure development metric that ranks security issues
+function point is a metrics estimates size of the application by the number of Line of code.
+software analysis uses decompiling and reverse engfinnering to detect malicius activity.
+replay attack vuln for kerberos
+

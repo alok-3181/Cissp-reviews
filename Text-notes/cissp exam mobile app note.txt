@@ -1,0 +1,53 @@
+Asset security - 86%
+.Six roles - Senior manager, security professional data owner dta custodian user and auditor
+to construct a job desription- Sepration of duties, job responsibilities and job rotation
+sensible procedure should be employed to deal with employee termination
+3 types of security polices should be made
+due care and due diligence is taken care by senior manager
+data owner is ultimately responsible for protection of data.
+
+
+-network communication- 74%
+4 types of firewalls: static packet filtering, applicaiton level gateway circuit level and statful inspection
+2 types of network: LAN and WAN
+4 BASIC Topologies: Bus, ring, star and mesh
+2 types of bus topology- Linear(employs a single trunk line with all systems directly conencted to it) & Tree(single line with branches that can supportmultiple system)
+Fiber optic cables are alternative to conductor based networking cables
+3 LAN technologies: Ethernet, token ring and FDDI
+the resistance of a cable results in signal strength and quality
+token ring is costly.
+token passing performs communication using a digital token
+(SKIP)simple key management for IP is an encryption tool used to protect session less datagram protocals
+twisted pair cable is thin and flexible. made up of four pairs of wires twisted
+5 LAN meadia access technologies- CSMA, CSMA/CA, CSMA/D, token passing & polling
+
+
+
+https://www.studynotesandtheory.com/videos 
+TCP handshake
+SYN- Client to server
+SYN/ACK- server replies to client
+ACK- client replies to server
+
+covert timing channel
+the best way to take care of social engeering is "security awareness training"
+in cyphertext attack. find the key first- with some of the plaintext and with ciphertext, attacker may find the key( do frequency analysis, brute force, reverse engineering methods to find the key)
+
+in symmetric- same secret key is used
+in asymmetric- encrypted with reciver's public and decrypted with recivcer private key
+
+To manage the flow of different types of secrets, the Bell-LaPadula model utilizes 3 rules: 
+The Simple Security Rule - A person in one classification level, cannot read data in a higher classification level.  If you have a Secret clearance, then you cannot read objects with a label of Top Secret.  This is also known as No Read Up.
+The Star Property Rule - A person in a higher classification level, cannot write messages to someone in a lower classification level.  If you have a clearance of Top Secret, then you cannot write messages to someone with a Secret clearance.  This is known as No Write Down.
+The Strong Star Property Rule - A person in one classification level cannot read or write intelligence to any other classification level.  If you have a clearance of Secret, then you are only allowed to read and write data to objects with the same classification label.
+
+
+
+Preventative Control: Spans administrative, technical, and physical controls to stop threats and risk to a system before it occurs. An IPS and an anti-virus program are preventative controls because they prevent unauthorized access or modification to the network or host.
+ The concept of preventative control is that they are supposed to stop a threat from exploiting a risk, before any damage is done.
+Detective Control: A security control that is used after an incident has occurred.  It is not meant to prevent attacks, it is meant to investigate incidents after they have occurred.  Real world examples of detective controls include CCTV, firewall logs, job rotation, guest sign-in books and actual police detectives.
+
+Anti-virus programs scan FILES. 
+IDS/IPS devices and software scan network PACKETS, network traffic.  
+
+ 

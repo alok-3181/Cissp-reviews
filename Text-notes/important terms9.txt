@@ -1,0 +1,44 @@
+retinal scan would be most effective way to control access at the perimeter.
+Diffie hellman and elgamala key use discrete algorithm
+slack space in disk is "unused space in a cluster"
+RIPV1 does not support MD5 for routing updates.
+only hot site support DRP testing .
+If relaying is enabled on email server, spammers will use open smtp  relays to send spam.
+anonymization cannot be reversed when implemented properly.
+SIEM is a centralized applicaiton.
+transient- lasting only for short time.
+HTTPS require both symmetric and asymmetric keys. S-HTTP require only symmetric.
+HTTPS encrypts entire message
+TCB describes that all the components of a system that are responsible for system security
+IEEE 802.1X defines a method that uses EAP to establish port based connections.
+paging is a memory protection technique that copies a fixed lenght block of a memory to disk.
+swapping is a memory protection technique that copies entire process.
+100base-FX provides 100 mbps speed for 2 kilometers.
+salts are added to hashing functions
+nonces are used to increase randomness and complexity of cryptogrepahic	 functions to mitigate reply attacks.
+Redbook is for US dod standard for networked systems.
+garbage collection will mitigate object resuse vulnerability
+PGP can be used to encrypt disk drives, not only email message, but s/mime cannot encrypt disk drives.
+Lock bumping is least likely to be a vulnerability with using a lock with dial combination.
+base metrics by vendor.
+temporal is abour urgecny, by vendor
+environmental metric is by end user organizaiton.
+cipher text only uses frequency analysis method.
+SEAL-Software encryption algorith(Seal) USES 160 Bits to
+ encrypt data
+SHA1 does not use 160 bit key. it creates 160 bit hash value
+FM13 is the safest fire suppression system in an electrical environment. replacement for halon
+one time password is most difficutl to manage as it is a shirt string of characters.
+Brute force attack uses rainbow table to compare hashes.
+Multi threading assigns time among child process.
+baselining monitors changes over time to check what changes have been maded from baseling.
+XACML is an OASIS standard, commonly used in SDN systems
+SAML is an OASIS standard, used in web application
+SPMl is an xml based  open standard by OASIS. used for SSO.
+smoke sensor uses an electrical charge.
+oauth 2.0 is an open standard.
+802.11a, g and n uses OFDM ; 802.b uses DSSS
+primary funciton of system unit contains all internal components of the computer system.	
+Object orionted database combines data and functioin in code accessable framework.
+switches forward broadcast frames and multicast frames.
+circuit level firewall works at session layer.

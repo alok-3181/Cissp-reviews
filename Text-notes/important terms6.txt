@@ -1,0 +1,114 @@
+compiler- hihg level source into a binary executable.
+interpreter language- executes one line at a time
+machine langauges- executes directly by the system
+assembler- converts assembly langaugae into machine language.
+finalists are RC6, Twofish,serpent and rijendal.
+Hamming code is used to detect and correct errors in data
+ephermal diffi hellman key exchange is temporary . forward secrecy , but no authenticaiton.
+Static diffi hellman key exchange is permanant 
+
+BS 7799-1 BS 7799-2 British standard
+Iso derived it from BS and name it ISO 17799
+Then renamed to ISO 27002 to fit into ISO numbering..
+
+ISO 27001- follows PDCA. Establishing, implementation, control and improvement of the ISMS
+ISO 27002(Replaced iso 17799)- provides practical advice for how to implement security controls.uses 10 domains to address ISMS.
+ISO 27004- Metrics for measuring the success of ISMS
+ISO 27005-RISK MANAGEMENTS
+ISO 27799-DIRECTIVES ON PROTECTING PERSONAL HEALTH INFORMATION.
+
+BCP 3 Teams- Resuce ; recovery and salvage
+Rescue- responsible for dealing with immediacy of disaster, ex- employee evacuation
+Recovery- responsible for getting the alternate facility up and running
+salvage- responsible for the retrun of operation to the original or permanant facility.
+reconstitution(restore least operations first)	
+OEP- occupant emergency plan- foucs on Personnel, not business or IT.
+crisis communication plan- status report to personnel and public, not IT focused.
+Disaster recover plan is more IT focused.
+Sustain- contunuity of operations plan(COOP)- alternate facility for 30 days.
+
+access triple-user->transformation procedure-CDI(constrained data item)
+vernam cipher- one time pad
+vignere cipher- polyalphabetic cipher
+ceaser cipher- substituion cipher
+symmetric- stream cipher(RC4) and block cipher(AES/3DES)
+stream ciher uses XOR(if the values are same it is 0, if it is different, then it is 1)
+data exchange- symmetric; key exchange- asymmetric. 	tls uses hybrid/ asymmetric
+asymetric key formula=2N
+Asymmetric algorithms are DSA, RSA, ECC, EL GAMAL, DIFFIE HELLMAN, KNAPSACK.
+RSA uses factorizatrion.
+diffie hellman- first asymmetric algorithm, based on discrete logarithm.key agreement based.
+ECC- based on plotting points upon a curve
+hasing(only good for accidential modification)- integrity.
+MAC provides reasinable authenticity and integrity not strong enough to be non repudiation becoz it uses symmetric  key.
+brithday attack is an attempt to cause collision.
+lesser known hashing algorithms are RipeMD, Tiger, whirlpool, HAVAL.
+MD5-128 bit, SHA1-160 Bit , SHA-256
+Integrity check value- Authentication header(AH)
+Oakley uses diffie hellman to agree upon a key
+OSI- Open systems interconnect.
+twisted cable is least secure.
+fiber optical- most secure
+mesh- most fault tolerent, fully redunant, partial mesh is often used to spare cost. connected to multiple computers.
+LLC -error detction; MAC- CSMA/CD; CSMA/CA
+Token passing- no collision.
+switch does not isolate broadcast natively.
+All protocols starts with letter I are layer 3 protocols except IMAP(LAYER 7)
+LOKI Attack- sending data in iCMP headers- covert channel
+smurf-icmp- uses spoofed source address(target) and directed broadcasts to launch a DDos.
+SSL/TLS -layer 4 transport protocol. operates through 4-7
+FTP uses TCP;tftp uses UDP.
+layer 6 does encryptipm, compression and formatting.; file level encryption.
+no protocol in presentation layer
+synflood, fraggle exploits udp in transport layer
+ping flood/death/loki smurf spoof in network later
+statefull firewall works at session layer.layer 5. circuit level firewall at layer 5.they monitor TCP HANDSHAKE.
+worm-self replicating
+virus- need user action to spread.
+mututal authentication would prevent session hijacking.
+encryption prevents sniffing
+ping of death- larget ping volume
+ping flood- overwhelming systems.
+teardrop- sending malformed packets which OS doesnt know how to assemble
+bonk- similar to teardrop.
+land attack-source and destination are same
+syn flood-exploits three way handshake
+smurf- icmp
+fraggle-udp.
+packet filters are also called screening routers.
+Servers hardened in dmz is called bastian host.
+RFC1918- private IP address. 10. ; 172.16-172.31 ;192.168
+Blue jacking- sending spam to nearby bluetooth services
+blue snarfing- copies information of remote devices
+blue bugging - serious issue, allows to make callsm eavesdrop, full use of phone
+RBAC- Role based sometimes called non-discrentionary. authorization creep may occurif we dont remove the user from role.
+SSO systems are kerberos, LDAP, Sesame, kryptoknight.
+radius doesnt encrypt value pairs
+RADIUS/802.1x
+red teams(attack); blue team(defend)
+Direct evidence- witness who saw the crime
+real evidence- physical evidence like gun, laptop
+best evidence(Most reliable)- signed contract
+secondary evidence- expert opinion. to support things.
+Corroborative evidence- support evidence.
+Circumstantial- suggest another. cant stand on its own.
+Hearsay- usually not admissable. copies of document. ex: i heard that john heard
+Demonstrative- presentation based- pics, x rays, diagrams. visual related.
+RAID1 is considered to be least efficient usage of space(50%)
+Clustering- Group of servers that are managed as a single system.
+full backup - archive bit is rest
+incremental - back up all files that have been modeifed since last backup. archive bit is reset
+Differential- Back up all files that have been modified since last full back up. archive bit is not reset
+waterfall model- good for small projects.
+prototyping- user can identify needed changes and refine requirements.sw developers use short cuts to develop prototype and donot follow formal procedures
+spiral- costly- early risk analysis done. good for large projects.expertise required
+agile- most of them use- very flexible. brainstorm, design,development,qulaity assurance,deployment.adaptable to change requiremnt, cons-lack of documenenttion.
+used in projects where requirements changes frequently.
+
+loose coupling minimizes dependcies.
+XSS takes advantage of trust i have in web
+CSRF takes advantage of trust a website has in me.
+CWE- Common weakness enumeration
+NVD- national vulnerability database
+collection of attributes in single is tuple
+overall db sturcture in schema

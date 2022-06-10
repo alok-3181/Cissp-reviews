@@ -1,0 +1,690 @@
+CISSP – Network & Telecom Security
+
+IPv4 Addressing
+ 
+Human   - 192.168.0.1
+		  Dot Decimal Notation
+Machine - 11000000101010000000000000000001
+		  Binary Notation
+
+11000000.	10101000.	00000000.	00000001
+1	           2	        3	       4
+
+  
+   Each octet contains 8 bits
+   IPv4 Addresses contain 4 octets, or 32 bits
+   
+00000000 = 0
+11111111 = 255
+
+128 - 1
+ 64 - 1
+ 32 - 1
+ 16 - 1
+  8 - 1
+  4 - 1
+  2 - 1
+  1 - 1
+  
+  128+64+32+16+8+4+2+1 = 255
+  
+  
+240-128=112-64=48-32=16-16=0
+
+128 - 1
+ 64 - 1
+ 32 - 1
+ 16 - 1
+  8 - 0
+  4 - 0
+  2 - 0
+  1 - 0
+  
+  240 = 11110000
+  
+10100011
+
+128 - 1
+ 64 - 0
+ 32 - 1
+ 16 - 0
+  8 - 0
+  4 - 0
+  2 - 1
+  1 - 1
+  
+  128+32+2+1 = 163
+  
+  
+Simple Rules of IP Addressing
+- Each octet will be 0-255
+- An address will not start with 0
+	e.g. 0.110.98.2
+- An address will not start with 255 
+	e.g. 255.100.98.2
+- An address will not typically end with 255
+
+For the CISSP exam:
+-----------------------------
+	Octet #1
+		- Will be 1-254
+	Octet #2/3
+		- Will be 0-255
+	Octet #4
+		- Will be 1-254
+	First Usable Address
+		- 1.0.0.1
+	Last Usable Address
+		- 254.255.255.254
+	Provides around 4 billion Addresses
+
+	     |
+192.168.1|.58
+192.168.0|.1
+ Network | Host
+		 |
+  
+
+Class A - NNNNNNNN.HHHHHHHH.HHHHHHHH.HHHHHHHH
+Class B - NNNNNNNN.NNNNNNNN.HHHHHHHH.HHHHHHHH
+Class C - NNNNNNNN.NNNNNNNN.NNNNNNNN.HHHHHHHH
+
+Default Subnet Masks
+Class A - 255.0.0.0
+        - 11111111.00000000.00000000.00000000
+Class B - 255.255.0.0
+        - 11111111.11111111.00000000.00000000
+Class C - 255.255.255.0
+        - 11111111.11111111.11111111.00000000
+
+Class A - 01??????.????????.????????.????????
+Class B - 001?????.????????.????????.????????
+Class C - 0001????.????????.????????.????????
+
+Class A -   1 - 126
+Class B - 128 - 191
+Class C - 192 - 223
+
+0       - Beginning of the address space
+127     - Loopback Network
+224-239 - Multicast
+240-254 - Reserved/Research
+255     - Broadcast
+
+Special blocks
+	- Automatic Private IP Addressing (APIPA)
+		- 169.254.?.?
+		- Used when DHCP is unavailable
+	- Private IP Ranges
+		- Class A
+			- 10.0.0.0
+		- Class B
+			- 172.16-31.0.0
+		- Class C
+			- 192.168.0-255.0
+		- Only routable on the LAN
+		- Will be blocked by ISPs
+		- Use NAT to translate to a public registered IP
+		
+		
+OSI Model
+	- Open Systems Interconnection Model
+	- Framework for network communications
+	- Bidirectional model (Data In and Data Out)
+		- Start point to end point
+	- Exists everywhere a computer exists
+	- Not unique to any protocol
+	- Software/Protocols participate within the model
+		- Typically on one or two layers
+	- The Good Warriors of the Net
+		- http://www.warriorsofthe.net/
+
+
+
+Port Numbers
+        0 - 65535     Full Port Range
+        1 - 1023      Well Known Port Numbers
+        1024 - 49151  Registered Port Numbers
+        49152 - 65535 Dynamic Port Numbers
+
+        - Network Protocols
+            - IP Layer 3
+            - TCP Layer 4
+            - PPP
+            - DNS
+            - UDP Layer 4
+            - ARP (RARP)
+            - IGMP
+            - ICMP
+            - SNMP
+            - BOOTP/DHCP
+			
+        - Protocol Ports (Need to know)
+            - Telnet (TCP/23)
+            - SSH (TCP/22)
+            - FTP (TCP/UDP 20 and 21)
+            - SFTP (TCP/22)
+            - HTTP (TCP/80)
+            - HTTPS (TCP/443)
+            - SMTP (TCP/25)
+            - TFTP (UDP/69)
+            - DNS (TCP/UDP 53)
+            - BOOTP (UDP 67 and 68)
+            - SNMP (TCP 161)
+            - Syslog (TCP 514)
+            - POP3 (TCP/110)
+            - IMAP4 (TCP/143)
+            - RDP (TCP/3389)
+            - MS-SQL (TCP/1433)
+            - SMB (TCP/445)
+            - RADIUS (1645/1646 and 1812/1813/1814)
+            - RPC (UDP/TCP 135)
+            - NNTP (TCP/119)
+            - IRC (TCP/6667 and others)
+
+Signal Types
+        - Analog
+			- older signal type
+			- wave
+        - Digital
+			- square pattern
+			- on or off
+        - Asynchronous (Modem)
+			- stopping and starting
+			- stop bit and start bit
+			- data block has a start bit, then data bits, parity bit, then stop bit
+        - Synchronous (Clock Mechanism)
+			- transfer data as a stream
+		- Broadband
+			- channels associated with different data streams
+		- Baseband
+			- uses entire transmission spectrum
+		
+Cabling
+		- Cable Categories (CAT rating)
+			- CAT 1 through 7
+				- CAT 1 Phone lines (analog)
+				- CAT 2 4 Mb/s
+				- CAT 3 10 Mb/s ethernet 4 Mb/s token ring
+				- CAT 4 16 Mb/s token ring
+				- CAT 5 100 Mb/s 
+					- CAT 5e subcategory 350 Mb/s
+				- CAT 6 1 Gb/s
+				- CAT 7 10 Gb/s
+			- Thinnet
+				- Coax cable
+				- 1/4 in cable
+				- 10Base2
+			- Thicknet
+				- Coax cable
+				- 1/2 in cable
+				- 10Base5
+			- Twisted pair (copper core)
+				- uses electrical signals
+				- UTP 100 meters (300 ft)
+			- Coax (copper core)
+				- uses electrical signals
+				- Thinnet 185 meters (600 ft)
+				- Thicknet 500 meters (1500 ft)
+			- Fiber (glass core)
+				- uses light pulses
+				- 2 Kilometers (6000 ft)
+				
+		
+Connectivity Devices
+		- patch panel
+		- hub -Layer 1 device
+		- bridge -Layer 2 device
+		- switch -Layer 2 device (sometimes higher)
+		- router -Layer 3 device
+		- wireless access point
+		- repeaters
+		- line conditioners
+		- concentrators
+		- modems
+		- multiplexors
+		- network interface cards
+		- firewall
+		- proxy server
+		- remote access server
+		- vpn
+
+Network Topology
+	- LAN
+		- bus
+		- star
+		- token ring
+		- dual ring
+		- mesh
+		- hybrid
+		
+Media Access Methods
+	- Carrier Sense Multiple Access
+		- CSMA/CA (Collision Avoidance) - for wireless LAN's
+			- sends data packet to segment that informs everyone I want to send data
+			- if no response, assume it's safe to send
+			- takes twice as long as CSMA/CD
+			- takes approx. half of available bandwidth (overhead)
+		- CSMA/CD (Collision Detection) - for wired LAN's
+			- sense a change of voltage when a data packet is sent
+			- one signal at a time
+			- more than one signal causes a collision
+			- collision is detected
+			- both ends back off
+			- resend at random offset
+			- uses spanning tree algorithm typically
+	- token passing
+	- polling
+
+IEEE Standards
+	- Ethernet 802.3
+	- Token Ring 802.5
+	- FDDI 802.4
+	
+Communications within the LAN
+	- unicast (one to one)
+	- multicast (one to a group)
+	- broadcast (one to everyone)
+	
+Network Protocols and Services
+	- ARP
+		- IP to MAC
+	- RARP
+		- MAC to IP
+	- DHCP
+		- DORA (ROSA)
+			- Discover
+			- Offer
+			- Request
+			- Acknowledgement
+		- broadcast based
+		- BOOTP
+		- RFC 1542 -will pass DHCP broadcast packets
+	- ICMP
+		- ping
+		- message types
+			- Type 0 echo reply
+			- Type 3 destination unreachable
+			- Type 8 echo
+			- Type 9 router advertisement
+			- Type 30 traceroute
+			- Type 37 domain name request
+			- Type 38 domain name reply
+		- ICMP attack methods
+			- Ping of Death -malformed ping packet
+			- Smurf Attack -target a machine by spoofing source address so all 
+				replies come back to single machine (TCP)
+			- Fraggle Attack -target a machine by spoofing source address so all 
+				replies come back to single machine (UDP)
+	- SNMP
+		- manage hardware based endpoints
+		- version 3 includes encryption
+		- management protocol
+	- DNS
+		- name resolution service
+		- forward lookup -FQDN to IP address
+		- reverse lookup -IP address to FQDN
+		- threats to DNS
+		- root servers
+		- Iterative
+			-can accept answer or a referral to another service
+			-non recursive
+		- Recursive
+			-requires an answer
+			-server to server
+		- can forward requests to another DNS server
+	- Email
+	- NAT - Network address translation
+		- static mapping
+			- pool of predefined addresses
+			- one to one mapping
+		- dynamic mapping
+			- pool of predefined addresses
+			- mappings are dynamic
+		- port address translation (PAT)
+			- ip address and port number from client
+				are mapped to external address
+    - Routing Protocols
+		- Language, sets of instructions on how we are going to move
+			data between networks
+			- distance vector
+				- looks at hop count
+				- each stop in route is a hop
+				- looks at how far destination is away, hop count
+			- link state
+				- looks at the state of the link
+				- is link up? Down?
+				- almost real time information about the state
+        - Interior
+            - RIP (v1, v2)  -distance vector
+            - IGRP			-distance vector (proprietary)
+            - EIGRP			-distance vector (proprietary)
+            - OSPF			-link state
+            - IS-IS			-link state
+        - Exterior
+            - BGP			-combination of link state and distance vector
+            - EGP 			(replaced)
+Router Flapping
+	- link state fluctuating up and down
+Black hole
+	- when link state does not receive updates
+			
+Firewalls
+	- hardware or software based
+	- virtualized or physical
+			
+Firewall Generations
+	1st - Packet Filters
+			- Screening routers (has ACL's)
+			- Examine source and destinations ip's in header
+			- Layer 3 and 4
+			- basic functionality
+	2nd - Application Layer (Proxy)
+			- Proxy Firewall
+			- Proxy Server
+			- Masking origin (NAT)
+			- Application Layer Gateway
+			- Layer 7
+			- Different one for different services
+	3rd - Stateful Packet Filtering
+			- All layers in the OSI Model
+			- Looking at Session or conversation
+			- looks at packets in context
+	4th - Dynamic Packet Filtering
+			- Allow modification of firewall rules,  maybe in real time
+			- Able to see patterns
+			- Mostly UDP solutions, not session based
+			- Possible issues with dropped packets
+	5th - Kernel Filtering (Also referred to as "Next Gen")
+			- Kernel Proxy
+			- Inside network stack
+			- Dynamically create virtual stack for analysis in real time
+			- Isolated from network traffic
+
+        - Firewall Configurations
+            - Boundary Router (Packet Filtering)
+                - Network Layer
+            - Dual-Homed
+            - Screened Host
+            - Screened Subnet
+            - Proxy Firewalls
+                 - Circuit Level
+                    - Session Layer
+                 - Application Level
+                    - Application Layer
+
+Honeypot (honeynets)
+	- hacking magnet
+	- decoy
+	- honeynet.org
+	- enticement
+Enticement
+	- legal
+	- let them make the decision to attack the system
+Entrapment
+	- illegal
+	- trick them into attacking the system
+
+
+
+
+
+
+
+- Cloud Computing
+	- Software as a Service (SaaS)
+		- Software is effectively rented
+		- The software is managed and maintained by a 3rd party
+	- Platform as a Service (PaaS)
+		- The operating system and hardware are managed and maintained by a 3rd party
+		- You are responsible for the software/applications
+	- Infrastructure as a Service (IaaS)
+		- The hardware/VM is provided and managed by the 3rd party
+		- You are responsible for the software and operating system
+
+- Intranet
+	- A private internal network
+	- Accessed externally via VPN
+- Extranet
+	- A private network that is available from the outside
+	- Web portal
+	- SharePoint
+- Electronic Data Exchange (EDI)
+	- Document management, invoicing, etc
+	- A secure channel for communicating information between systems
+- Metropolitan Area Network (MAN)
+	- A network that covers an entire city
+- Synchronous Optical Network (SONET)
+	- Standard for transmitting data over fiber
+	- Voice and data
+- Metropolitan Ethernet (Metro-E)
+- Virtual Private LAN Service (VPLS)
+	- Multipoint Layer-2 Virtual Private Network
+	- Connects two or more endpoints together
+- Wide Area Network (WAN)
+	- The Internet is the largest example
+- Asynchronous Transfer Mode (ATM)
+	- Uses a fixed cell size to transmit data
+	- 53 Bytes
+	- Transfered over SONET
+- Optical Carrier (OC)
+	- 52Mbps
+	- OC-# indicates the number of bundled links
+	- OC-5  ~260Mbps
+	- OC-10 ~520Mbps
+- Dedicated Link
+	- Point-to-Point
+- "T" Carriers
+	- United States
+	- T1
+		- 1.544Mbps
+		- 24 Channels
+	- T3
+		- ~45Mbps
+		- 672 Channels
+- "E" Carriers
+	- Europe
+	- E1
+		- 2.048Mbps
+		- 32 Channels
+	- E3
+		- 34.3Mbps
+		- 512 Channels
+- Multiplexing Types
+	- Bundling channels together
+	- Methods
+		- Statistical Time Division
+			- Standard copper solutions
+			- Simultaneous data transmission
+			- Mathematical process to control how data is combined and transmitted
+		- Frequency Division Multiplexing
+			- Wireless spectrum used to transmit data
+			- The band is divided into separate frequencies
+				- e.g 1GHz gets divided into 33Mhz channels
+		- Wave Division
+			- Used in fiber optic communications
+			- Light
+			- Data streams transmitted at different frequencies
+- WAN Technologies
+	- CSU/DSU
+		- Channel Service Unit
+		- Data Service Unit
+		- Bridges the divide between LAN and WAN
+		- DSU converts digital signals from routers/switches and transmits over the provider's lines
+		- CSU connects the network to the service provider's lines
+	- Packet Switches
+		- No dedicated circuits
+		- Circuits are brought up at the time of use
+		- Bursty in nature
+		- Typically carries data
+		- x.25
+		- Frame-relay
+	- Circuit Switches
+		- Connection Oriented
+		- Traffic flows in a predictable manner (paths)
+		- Voice
+		- ISDN
+	- Virtual Circuits
+		- Permanent Virtual Circuits
+		- Switch Virtual Circuits
+		- Picks up on demand
+		- Does not always follow the same path
+		- Typically has an agreed upon amount of bandwidth
+	- Serial Line Interface Protocol (SLIP)
+		- No authentication
+		- Replace by PPP
+	- Point-to-Point Protocol (PPP)
+		- Data compression
+		- Multi-link capable
+		- Able to encapsulate multiple protocols (Not just IP)
+		- Multiple authentication methods
+	- SIP and H.323
+		- SIP is a voice protocol
+		- H.323 allows us to manage the connections
+	- Real-Time Protocol (RTP)
+		- Another video/voice protocol
+	- Integrated Services Digital Network (ISDN)
+		- Basic Rate Interface (BRI)
+			- 2 B-Channels
+			- 1 D-Channel
+			- 64Kbps per B-Channel
+			- 144Kbps Bandwidth
+		- Primary Rate Interface (PRI)
+			- 23 B-Channels
+			- 1 D-Channel
+			- 64Kbps per B-Channel
+			- 1.544Mbps Total Bandwidth
+	- Digital Subscriber Line (DSL)
+		- Broadband
+		- Up to 52Mbps over copper
+		- Types
+			- Symmetric DSL (sDSL)
+				- Bi-directional data flow at the same rate
+				- Up to 1.1Mbps
+			- Asymmetric DSL (aDSL)
+				- Data down is faster than data up
+	- Cable Modem
+		- Broadband
+		- Always connected
+	- Virtual Private Network (VPN)
+		- Point-to-Point Tunneling Protocol (PPTP)
+			- Data-Link Layer
+			- Transmits only on IP networks
+			- MPPE (Microsoft Point-to-Point Encryption)
+		- Layer 2 Tunneling Protocol (L2TP)
+			- Combined PPTP with L2F (Layer-2 Forwarding)
+			- L2F is Cisco proprietary
+			- Extends your L2 network to multiple locations
+			- Extends beyond IP based networks
+			- Uses IPSec for security
+		- Internet Protocol Security (IPSec)
+			- Supports multiple connections simultaneously
+			- Provides Encryption as well as Authentication
+			- Limited to IP based networks
+			- Layer 3 of the OSI model
+		- Secure Sockets Layer (SSL)
+			- Works at the Transport layer (4)
+			- Used primarily with web traffic
+	- Authentication Protocols
+		- Password Authentication Protocol (PAP)
+			- Passwords sent in the clear
+		- Challenge Handshake Authentication Protocol (CHAP)
+			- Standard
+			- Challenge/Response authentication
+		- Microsoft CHAP (MS-CHAP)
+			- Microsoft proprietary
+			- MS-CHAPv2
+		- Extensible Authentication Protocol (EAP)
+			- Lightweight EAP (LEAP)
+			- EAP-TLS
+			- EAP-IKE2
+- Wireless
+	- Spread Spectrum Technology
+		- Frequency Hopping Spread Spectrum (FHSS)
+			- Takes total amount of bandwidth (spectrum) and split it into multiple sub-channels
+		- Direct Sequence Spread Spectrum (DSSS)
+			- Sub-bits (tags) applied to messages that allows us to break up data and re-assemble it at the other side. 
+			- Sub-bits are called "chips"
+			- The sequencing is called the "chip code" or "chipping code"
+	- Multiplexing Technology
+		- Orthogonal Frequency Division Multiplexing (OFDM)
+			- Digital solution
+			- Compacts the channels together to reduce bandwidth
+	- Components
+		- Access Points
+		- SSID
+	- Security
+		- Wired Equivalent Protocol (WEP)
+			- 802.11
+			- Broken, considered non-secure
+		- Temporal Key Integrity Protocol (TKIP)
+			- Designed to replace WEP
+			- Increased the key-space size
+		- 802.1x
+		- 802.11i
+		- Wi-Fi Protected Access (WPA)
+			- Uses 802.1x or a pre-shared key (PSK) for access control 
+			- Uses EAP for authentication
+			- Uses TKIP (RC4) for encryption
+			- Uses MIC for integrity
+		- WPA2
+			- Uses 802.1x or a pre-shared key (PSK) for access control 
+			- Uses EAP for authentication
+			- Uses AES Countermode for encryption
+			- Uses AES CBC-MAC for integrity
+	- Standards
+		- IEEE
+			- http://www.ieee.org/index.html
+		- 802.11a
+			- 5GHz
+			- 54Mbps
+			- OFDM
+		- 802.11b
+			- 2.4GHz
+			- 11Mbps
+			- DSSS
+		- 802.11g
+			- 2.4GHz
+			- 54Mbps
+			- OFDM
+		- 802.11n
+			- 5GHz
+			- 100Mbps
+			- Multiple In Multiple Out (MIMO)
+		- 802.15
+			- Wireless Personal Area Network (WPAN)
+			- Bluetooth
+				- Bluesnarfing
+				- Bluejacking
+		- 802.16
+			- Wireless Metropolitan Area Networks (WMAN)
+			- WiMAX
+	- Mobile Wireless
+		- Multiple Access Technologies
+			- Frequency Division Multiple Access (FDMA)
+				- Available frequency is divided into channels/sub-bands
+				- Each user gets a channel
+			- Time Division Multiple Access (TDMA)
+				- Divides the channels in to timeslots
+				- Users share the same channel, but use it at different times
+			- Code Division Multiple Access (CDMA)
+				- A unique code is added to each transmission. 
+				- Multiple transmissions can be sent on the same channel and the unique code differentiate them.
+			- Orthogonal Frequency Division Multiple Access (OFDMA)
+				- Combines FDMA and TDMA
+		- Mobile Generations
+			- Cellular networks
+			- 1G
+				- First Generation
+				- Analog Only
+				- FDMA
+			- 2G
+				- Circuit switched
+				- TDMA
+			- 3G
+				- Packet switched
+				- CDMA
+			- 4G
+				- Packet switched
+				- Up to 1Gbps in theory
+				- OFDMA

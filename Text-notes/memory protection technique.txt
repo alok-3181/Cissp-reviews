@@ -1,0 +1,8 @@
+Segmentation: Segmentation is the process of dividing the memory of a computer into several segments.
+Using paged virtual memory: Equal-sized block division of the memory address space is done in paging. The equal-sized blocks are known as pages.
+Protection keys: MPK or memory protection key is a mechanism that divides the physical memory into particular size blocks (as small as 4 kiB). Each of these blocks has a numerical value associated,
+Simulated segmentation: Simulation is used for program monitoring and interpreting the instructions of machine code in several types of computer architectures
+Capability-based addressing -This method revolves around the replacement of pointers by capabilities or protected objects which can be created only through the use of privileged instructions. 
+These instructions can be executed only by the kernel
+Dynamic Tainting: This is a technique that protects programs from accessing memory illegally
+Virtualization produces a different network that can be regarded as a hybrid of the new logical or virtual environment and the well-established network that is physically centered

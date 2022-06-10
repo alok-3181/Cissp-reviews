@@ -1,0 +1,7 @@
+loose coupling minimizes dependcies.
+XSS takes advantage of trust i have in web
+CSRF takes advantage of trust a website has in me.
+CWE- Common weakness enumeration
+NVD- national vulnerability database
+collection of attributes in single is tuple
+overall db sturcture in schema

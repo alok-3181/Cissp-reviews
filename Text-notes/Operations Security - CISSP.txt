@@ -1,0 +1,146 @@
+Operations Security
+
+Job Rotation
+- cross training
+Least Privilege
+- just the level of access they need to do their job
+- nothing more
+Mandatory Vacations
+- chance to audit your job functions
+Clipping Level
+- set a threshold
+- monitor for values that 
+Assurance Level
+- Operational Assurance
+- entire structure of the system
+- all elements operate in a way that validates security
+- Lifecycle Assurance
+- security is operating as it should throughout the lifetime
+IPL (Initial Program load)
+- mainframe term
+- load OS into computers main memory
+Asset Management
+- what do we own
+- hardware, software, humans, intellectual property
+Trusted Recovery Methods
+- System Reboot
+- Emergency System Restart
+- System Cold Start
+What to do after a system crash?
+- Enter into safe mode
+- Fix issues, recover files
+- Validate critical files
+Security Concerns During a Trusted Recovery Process
+- Boot up sequence should not be able to be modified
+- Writing actions to system logs should not be bypassed
+- A system forced shutdown should not be allowed
+- Output should not be able to be rerouted
+System Hardening
+- Bastion Hosts
+- removing unnecessary services, software, etc.
+- removing unnecessary files
+Remote Access Security
+- AAA
+- RADIUS
+- Securing Cloud Access
+- Mobile access
+Configuration Management
+- document and manage the configuration of our hardware
+- Server or desktop images
+- Patch management
+- Documentation
+Change Management
+- Formal request for change
+- Approval of the change
+- Documentation of the change
+- Testing of the change
+- Implementation of the change
+- Report on the change to management
+Media Controls (DVD, USB, etc)
+- Sanitization
+- Purging
+- Zeroization
+- Degaussing
+- Data Remanance
+Network and Resource Availability
+- Redundant hardware
+- Hot swapping
+- Fault Tolerance
+- MTBF (Mean time between failures) - vendor driven metric
+- MTTR (Mean time to repair) - user driven metric
+- SPOF (Single point of failure) - no redundancy
+RAID Types
+MAID
+- Massive array of inactive disks
+RAIT
+- Redundant array of independent tape
+SAN
+- Storage area network
+NAS
+- Network attacked storage
+Clustering
+- virtualized front end, pooled storage
+Grid Computing
+- combine individual computers into one
+Email
+- Protocols
+- MIME
+- S/MIME
+- Architecture
+Attack Types
+- Session hijacking
+- LOKI
+- Password cracking
+- Back doors
+- Denial of service
+- Distributed denial of service
+- Man in the middle
+- Mail bombing
+- War dialing
+- Ping of Death
+- Teardrop Attack
+- Fake login screens
+- Traffic analysis
+- Slamming and Cramming
+
+Vulnerability Testing
+- looking at the potential risk associated with our assets
+- evaluate configuration
+- patch levels
+- address found concerns
+- vulnerability scanners
+- MBSA
+- Windows Defender
+- Nessus
+- Kissmet
+- Firesheep
+Penetration Testing
+- Discovery
+- Enumeration
+- Vulnerability Mapping
+- Exploitation
+- Report to Management
+Knowledge Levels
+- Zero knowledge (black box testing) 
+- outside the network
+- Partial knowledge (grey box testing) 
+- outside the network
+- Full knowledge (white box testing) 
+- inside the network
+Vulnerability Types
+- Kernel Flaws
+- occur below the GUI
+- core buffer overflow for example
+- Buffer Overflows
+- input more data than the buffer can hold
+- need to do boundary checking to prevent
+- Symbolic Links
+- use the OS structure to see data not normally accessible
+- File Descriptor Attacks
+- use metadata to attack data
+- Race Conditions
+- processes finish in the wrong order
+- Directory Permissions
+- proper delegation
+Documentation
+Postmortem or post implementation review

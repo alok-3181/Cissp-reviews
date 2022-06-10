@@ -1,0 +1,66 @@
+IPSEC- it uses public key cryptography to provide encryption, access control, non-repudiation and message authentication. Primary for VPN. It can operate in transport or tunnel mode.
+SSH- good example of end to end encryption technique.
+Signal protocol - this is a cryptographic protocol that provides end to end encryption for voice communications, videoconferencing and text message services. It is a nonfederated protocol
+S-RPC- authentication service.
+SSL- 128 bit key.
+TLS- it uses stronger authentication and encryption protocols. When it is implemented at layer 3 for VPN, it is called OpenVPN.
+TLS also used in UDP to encrypt and in session initiation protocol connections. SIP is a protocol associated with VoiceIP.
+PAP-Password authentication protocol – standard protocol for PPP. It transmits username and password in clear text.
+CHAP- Challenge handshake authentication protocol- this is used over PPP links. It encrypts user name and password. It performs challenge response dialog that cannot be replayed. It keeps reauthenticating
+EAP- extensible authentication protocol- this is a framework for authentication instead of an actual protocol. It allows for customization
+Secure real time transport protocol(SRTP) is used in many VOIP communications.
+attackers known as phreakers abuse phone systems in much the same way that attackers abuse computer networks
+phreaker tools are black box – manipulates line voltages to steal long distance 
+Red box is used to stimulate tones of coins being deposited into a pay phone
+Blue box is used to stimulate 2600 Hz tones to interact directly with the phone network trunk systems
+White box is used to control the phone system. It is a dual tone multifrequency generator(DTMF)
+email systems relay on x.400 standard
+Sendmail is the most common for SMTP server for unix systems. Exchange is most common for Microsoft systems.
+S/MIME-Secure multipurpose internet mail extension - it is an email security standard that provides authentication and confidentiality to email through public key encryption and digital signatures. 
+Authentication is provided through x.509 digital certificates. Privacy provided through use of public key cryptography standard (PKCS) encryption
+1.Signed message 2. secured enveloped message. Singed message provides integrity, sender authentication and non-repudiation. enveloped message provides integrity, sender authentication and confidentiality.
+MIME Object security services (MOSS)- it employs MD2 and MD5 algorithms.RSA public key and DES. It provides integrity, confidentiality, authentication and non-repudiation
+Privacy enhanced mail (PEM) – it uses RSA, DES and X.509. provides integrity, confidentiality, authentication and non-repudiation
+Domiankeys identified mail(DKIM)- it is to assert that valid mail is sent by an organization through verification of domain name identity. 
+Pretty good privacy -is a public-private key system that uses a variety of encryption algorithms to encrypt files and email messages. The first version used RSA and second version used IDEA
+PGP is not a standard, but rather an independently developed product that has wide internet support
+Sender policy framework – to protect against spam and email spoofing. It will check the mail whether to allow or not.
+Point to point protocol(PPP)- full duplex protocol used for transmitting TCP/IP packets over various non LAN connections, such as modem,ISDN, VPN, framerelay. 
+Protection is through CHAP and PAP.PPP is a replacement for SLIP .
+SLIP- Serial line internet protocol -older technology developed to support TCP/IP over asynchronous serial connections. It requires static IP and no error detection or correction.
+RADIUS – used to centralize authentication of remote dial up connections . remote access sever pass logon credential to radius server for authentication.It uses UDP 1812 and TCP 2083 over tls.
+TACACS integrate authentication and authorization process
+XTACACS keeps authentication authorization and accounting process separate. 
+TACACS+ improves by adding two factor authentication and it is the most current version. it uses TCP 49.
+PPTP doesn’t support radius and TACACS+.
+Layer 2 forwarding and L2TP- cisco developed its own protocol called layer2 forwarding
+Vlan 1 very typically is the designated management traffic Vlan
+SDN- Software defined networking – it aims at separating the infrastructure layer from control layer. This also removes the traditional networking concepts of IP addressing, subnets, routing
+SDN offers new network design that is directly programmable from a central location, is flexible, open standard based. 
+PAT maps one internal IP to an external IP with port number combination.
+Private IP address
+10.0.0.0- 10.255.255.255.255(Full A class range)
+172.16.0.0-172.31.255.255(16 class b range)
+192.168.0.0- 192.168.255.255(256 class C range)
+Automatic private IP addressing(APIPA)- from the range 169.254.0.1 to 169.254.255.254.
+PVC(permanent virtual circuit)- is a two way connection.
+Dedicated line/leased line – always available. T1, T3, E1, E3 and partial T1
+Nondedicated line- standard modems, DSL and ISDN are example of this.
+BRI- Basic rate interface – it offers connection with two B channels and one D channel. B channel for data with 64kbps throughput and D channel for call with 16kbp
+PRI- Primary rate interface -it offers multiple b Channel connection with 64kbps and single D channel with 64kbps. So total 192kbps and upto 1,544 mbps
+CSU/DSU contains data terminal equipment and data circuit terminating equipment(DTE/DCE
+CSU/DSU acts as translator .
+X.25 -is an older packet switching technology it uses permanent virtual circuit. Lower performance
+Frame relay -It is a connection oriented packet switching technology -it supports multiple PVCs 
+ATM- asynchronous transfer mode is a cell switching WAN communication technology. Fixed length 53 byte cells. Very efficient and high throughputs. It can use wither PVC or SVC.
+SMDS-Switched multimegabit data service is a connectionless packet switching technology. It is often used to connect multiple LAN to create MAN. high throughput.
+SDH and SONET are fiber optic high speed networking standards. Both support mesh and ring topologies.
+SDH was by International telecommunication and SONET by American national standard. High speed duplex communications
+SDLC- Synchronous data link control- for permanent physical connection. It uses polling. Layer 2. 
+HDLC- high level data link control – supports full duplex it also uses polling, layer 2. It offers flow control and error detection and correction.
+PPP is an encapsulation protol.
+
+
+
+
+

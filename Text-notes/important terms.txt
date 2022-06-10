@@ -1,0 +1,86 @@
+collision- It means when two objects strike, or run into one another
+Collusion - It means who two or more persons agree (in secret) to commit a criminal act, like fraud
+Snooping- the action of furtively trying to find out something, especially information about someone's private affairs.	
+eavesdropping- secretly listen to a conversation.
+war dialing - is a technique to automatically scan a list of telephone numbers, usually dialing every number in a local area code to search for modems, computers
+entrapment -the action of tricking someone into committing a crime in order to secure their prosecution
+enticement- something used to attract or to tempt someone; a lure
+espinoage -the practice of spying or of using spies, typically by governments to obtain political and military information. disclosure info.
+sabotage -deliberately destroy, damage, or obstruct (something), especially for political or military advantage.
+permutation -the action of changing the arrangement, especially the linear order, of a set of items
+evil twin- An evil twin is a fraudulent Wi-Fi access point that appears to be legitimate but is set up to eavesdrop on wireless communications
+daisy chaining -connect (several devices) together in a linear series
+shimming-wedge (something) or fill up (a space) with a shim
+pivot-Pivoting is the unique technique of using an instance (also referred to ... to attack this second network through our first compromised machine.
+FEMA- Federal emergency management agency is responsible for providing data about flood risk.
+common mode noise- diefference between hot and ground wire of a power.
+hot site- maximum 6 hrs, warm site-maxmimum 12 hours
+Troajn horse- rogue antivirus as users install from web.
+frequency analysis attack is - when you have access to  encrypted message, but no other information.
+Transformation procedures(TP)- only alloed to modify CDI in clark-wilson model
+operation security triple- relationship of asset, vuln and risk
+concentric circule-multiple layers of malware protection distributed.
+Security label- protect against tampering.
+mean time between failure-provides the expected life span on storage.
+Directive control- guides org security implementation as such control statements.
+BCP implementaiton - invloves sw, hw resources
+Restoration-involves restoring a business facility and environment to a workable state.
+control signing- finds the originate of trusted source by using digital signature.
+1000 building fire- in a day in US
+Tripwire-scans filesystem for unexpected modification and reports to us periodically.
+Differential backups- store all files that have been modified since the time of the most recent full backup. They do not alter the archive bit.
+Abstraction- states that a detailed understanding of lower system levels is not a necessary requirement for working at higher levels.
+Trade secrets- are one of the best legal protections for computer software.
+most APTs are military attacks, sponcered by goverment.
+remote mirroring - is the most advanced off site backup option.
+Perfect forward secrecy-ECDHE implement this.
+PBKDF2-Key stretching technology
+Soft destruction- deleting, formatting, degaussing
+physical destruction-shredders, disk crush
+Incineration, pulverizing, melting and acid are also (very rarely) used to ensure full data destruction.
+classification - is that it is the duty of the data owner to classify data.
+Categorization - This is used to identify information assets/types with regard to their impact if lost.
+Errors of omission-These result from lack of documentation around known legitimate values. These are harder to detect
+Errors of Commission: Much simpler to detect and usually results from data entry.
+Data Verification: It is used to verify that data in hand and at source matches, less expereienced personnel can do
+Data Validation - It is used to evaluate the goals with the derived data.only expertise can do
+transitive trust - is a concept that if A trusts B and B trusts C, then A inherits trust of C through the transitive property
+confinement - is implemented through process isolation. cannot access byeond allocated memory.
+Bounds- states the area within which a process is confined or contrained. it sets authority level. it is a logical area.
+assurance- degree of confidence
+information flow model- based on state machine model(always secure)
+Bell-lapudla and BIBA-information flow model
+Bell is concerned with preventing information flow from high security level to low security.
+BIBA is concerned with low security to high security. It also addresses cover channels by specifically excluding all non-defined flow pathways.
+non-interference model- based on information flow model, protection against trojan horse.. 
+Non-interference is concerned with how subject at a higher security level affect the system state or the action of a subject at lower security level.
+cascading-input for one system comes from the output of another system.
+feedback- one system provide an input to another system.
+hookup- one system send inout to another system and also send input to external entities.
+capabilities list is tied to subject. ACL is tied to object
+* security property in bell model also called confinement property.
+BIBA doesnt prevent covert channel.
+access control triple- subjects,programs and objects.
+IVP integrity verification procedure is a procedure that scans data items and confirm their integrity. 
+in clark wilson model -It uses security labels to grant access to objects 
+Brewer and Nash model (aka Chinese model) – it was created to permit access controls to change dynamically based on user’s previous activity.
+Goguen -meseguer model – is an integrity model, noninterence model- based on automation theory and security domain. predetermined actions and cannot access other domains.
+Sutherland model- system states,initial states and state transisiton. It prevents covert channel.
+Graham- denning model – focused on the secure creation and deletion of both subjects and objects. eight primary protection rules.
+TCSEC -A1- verified protection ; B3-security domains(Focus on vulnerability); B2- structured protection (it ensures that no covert channel exist);B1-labeled security. 
+C2-Controlled access protection(It enforces media cleansing to avoid remnant).C1-Discretionary protection ; D-Minimal protection.
+Green book –(password) ; yellow book(environment); tan book(audit) ; bright blue(product evaluation for vendors)
+Issues with TCSEC- 1. Doesn’t cover integrity, accuracy 2. Doesn’t cover what user do with information 3. Does not cover procedural, policy matters. 4. Orange book only for standalone systems.
+TCSEC Classes and required functionality  ; ITSEC Classes and required assurance and functionality .
+ITSEC refers to any systems being evaluated as TOE target of evaluation ,ITSEC covers integrity and availability in addition to confidentiality. 
+common criteria- protection profile PP (I want from customer voice )and security target ST(I will provide from vendor voice)
+EAL1- Functionally tested; EAL2- Structurally tested ; EAL3-Methodically tested and checked ; EAL4 -Methodically tested, checked and reviewed ; 
+EAL5-Semi formally designed and tested ; EAL6- semi formally verified, designed and tested ; EAL7-formally verified designed and tested.
+Two government standards are currently in place for the certification and accreditation of computing system. The current DoD standard is RMF. Risk management framework
+The standard for all other US govt executive branch departments is CNSS (committee on national security system) 
+system security authorization agreement (SSAA).
+For system accreditation – major application or system is evaluated; for site accreditation – applications and system at specific location is evaluated; 
+for type accreditation -system or application that is distributed to number of different locations is evaluated.
+HSM- hardware security module-it adds tamper protection. TPM is one example of HSM. It provides 2048 bit asymmetric
+
+.

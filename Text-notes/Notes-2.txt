@@ -1,0 +1,160 @@
+Collisions occur when two files form the same hash result. Clustering results when different keys yield the same result.
+substitution causes confusion - Transposition causes diffusion
+One-time pads are also known as Vernam ciphers.
+LUC is an asymmetric algorithm that uses discrete logarithms and Lucas functions.
+Skipjack was the proposed standard for use with law enforcement authorities as the algorithm to use to obtain legal authorization for encrypted data.
+The Clipper Chip was a government-devised method for commercial encryption. It was designed to make use of the skipjack algorithm.
+The output of an MD5sum is 32 characters long.
+UUencode was developed to aid in the transport of binary images via email.
+TCSEC - A is verified protection, B is mandatory protection, C is discretionary protection, and D is minimal security. Lower letters of the alphabet represent higher levels of security. Higher numbers indicate a greater level of trust.
+CPU can operate in states are Ready, Supervisor, Problem, and Wait.
+Clark-Wilson uses security labels to grant access to objects through the use of transformation procedures.
+The Clark-Wilson model requires an access triple that consists of the operator, a program, and the data. A user cannot directly change data. Data can be changed by a qualified application after the user has authenticated to it.
+B2, B3, A1 looks into covert channels.TCSEC B1 specification is labeled. B2 is structured, B3 is security domains.B1 systems are the first level to require sensitivity labels. B2 systems must possess trusted path requirements.
+B3 systems must have protections against covert channels
+The PSW holds the application’s operating state
+A cold start must be performed when a system suffers a total TCB or media failure and the system must be restored to a reliable, secure state.
+The Sutherland model is based on the problem of inference. Brewer-Nash addresses conflicts of interest.
+Common protocol numbers include 0x01 (ICMP), 0x06 (TCP), 0x11 (UDP), and 0x58 (IGRP)
+Wormhole attacks result from an attacker tunneling valid data to an accomplice who can replay the data out of context. A black hole is the destination when data is sent to a nonexistent receiver. Tunneling is the method used to move the data between the attackers.
+Transaction signatures (TSIG) are used to secure DNS.
+High cohesion and loose coupling.
+D – Minimal protection
+C – Discretionary protection
+  C1 – Discretionary Security Protection
+  C2 – Controlled Access Protection
+B – Mandatory Protection
+  B1 – Labeled Security
+  B2 – Structured Protection
+  B3 –  Security Domains
+A – Verified Protection
+  A1 – Verified Design
+
+Class A -> C = Combustible
+Class B -> L = Liquid
+Class C -> E = Electrical
+Class D -> M = Metals
+
+Verification determines if the product accurately represents and meets the specifications. A product can be developed that does not match the original specifications. This step ensures that the specifications are properly met.
+Validation determines if the product provides the necessary solution intended real-world problem. In large projects, it is easy to lose sight of overall goal. This exercise ensures that the main goal of the project is met.
+
+Power Excess
+Spike  --> Too much voltage for a short period of time.
+Surge --> Too much voltage for a long period of time.
+
+Power Loss 
+Fault      --> A momentary power outage.
+Blackout --> A long power interruption.
+
+Power Degradation 
+Sag or Dip  --> A momentary low voltage.
+Brownout   --> A prolonged power supply that is below normal voltage.
+
+Alternative routing is a method of routing information via an alternate medium such as copper cable or fiber optics. This involves use of different networks, circuits or end points should the normal network be unavailable. Diverse routing routes traffic through split cable facilities or duplicate cable facilities. This can be accomplished with different and/or duplicate cable sheaths.
+
+Life-cycle Assurance
+- Security Testing
+- Design Specification and verification
+- Configuration Management
+- Trusted system distribution
+
+For Class A, the addresses are 0.0.0.0 - 127.255.255.255.
+For Class B networks, the addresses are 128.0.0.0 - 191.255.255.255.
+For Class C, the addresses are 192.0.0.0 - 223.255.255.255.
+For Class D, the addresses are 224.0.0.0 - 239.255.255.255.
+For Class E, the addresses are 240.0.0.0 - 255.255.255.255.
+
+RAID Summary
+0 – Striping
+1 – Mirroring
+2 – Hamming code parity
+3 – Byte level parity
+4 – Block level parity
+5 – Interleave parity
+7 – Single Virtual Disk
+
+The Clark-Wilson model uses separation of duties, which divides an operation into different parts and requires different users to perform each part. This prevents authorized users from making unauthorized modifications to data, thereby protecting its integrity.
+
+Start and stop bits mark the beginning and the end of each transfer in asynchronous communication.
+
+Continuous authentication is a type of authentication that provides protection against impostors who can see, alter, and insert information passed between the claimant and verifier even after the claimant/verifier authentication is complete.
+
+Criticality prioritization, downtime estimation, and resource requirements are the three primary goals of a BIA.
+
+Port knocking is where the client will attempt to connect to a predefined set of ports to identify him as an authorized client. The port knocking sequence is used to identify the client as a legitimate user.The Brewer and Nash model was constructed to provide information security access controls that can change dynamically.
+
+
+TCP=6, ICMP=1, UDP=17, IGMP=2
+
+Unit testing uses set of test cases that focus on control structure of procedural design.
+
+Capacitance detectors monitor an electrical field surrounding the object being monitored. They are used for spot protection within a few inches of the object, rather than for overall room security monitoring used by wave detectors.
+
+ARP- IP to MAC, RARP - MAC TO IP
+
+The security perimeter is the imaginary line that separates the trusted components of the kernel and the Trusted Computing Base (TCB) from those elements that are not trusted.
+
+Padded cells complement Intrusion Detection Systems (IDSs) and are not related to DBMS security. Padded cells are simulated environments to which IDSs seamlessly transfer detected attackers and are designed to convince an attacker that the attack is going according to the plan. Cell suppression is a technique used against inference attacks by not revealing information in the case where a statistical query produces a very small result set. Perturbation also addresses inference attacks but involves making minor modifications to the results to a query. Partitioning involves splitting a database into two or more physical or logical parts; especially relevant for multilevel secure databases.
+
+
+1. Protect society, the commonwealth, and the infrastructure
+Promote and preserve public trust and confidence in information and systems
+Promote the understanding and acceptance of prudent information security measures
+Preserve and strengthen the integrity of the public infrastructure
+Discourage unsafe practice
+
+2. Act honorably, honestly, justly, responsibly, and legally
+Tell the truth; make all stakeholders aware of your actions on a timely basis
+Observe all contracts and agreements, express or implied
+Treat all members fairly. In resolving conflicts, consider public safety and duties to principals, individuals, and the profession in that order
+Give prudent advice; avoid raising unnecessary alarm or giving unwarranted comfort
+Take care to be truthful, objective, cautious, and within your competence
+When resolving differing laws in different jurisdictions, give preference to the laws of the jurisdiction in which you render your
+service
+
+3. Provide diligent and competent service to principals
+Preserve the value of their systems, applications, and information
+Respect their trust and the privileges that they grant you
+Avoid conflicts of interest or the appearance thereof
+Render only those services for which you are fully competent and qualified
+
+4. Advance and protect the profession
+Sponsor for professional advancement those best qualified. All other things equal, prefer those who are certified and who adhere to these canons.  Avoid professional association with those whose practices or reputation might diminish the profession
+Take care not to injure the reputation of other professionals through malice or indifference
+Maintain your competence; keep your skills and knowledge current. Give generously of your time and knowledge in training others
+
+Magnetic media are affected from 100 degrees Fahrenheit or 37.7º Celsius.
+
+Disks are damaged at 150 degrees Fahrenheit or 65.5º Celsius
+
+Computer equipment at 175 degrees Fahrenheit or 79.4º Celsius, and
+
+Paper products at 350 degrees Fahrenheit or 176.66º Celsius.
+
+
+Circumstantial evidence is defined as inference of information from other, intermediate, relevant facts. Secondary evidence is a copy of evidence or oral description of its contents. Conclusive evidence is incontrovertible and overrides all other evidence and hearsay evidence is evidence that is not based on personal, first-hand knowledge of the witness, but was obtained from another source. Computer-generated records normally fall under the category of hearsay evidence.
+
+
+
+The continuity of operations plan (COOP) focuses on restoring an organization's essential functions at an alternate site and performing those functions for up to 30 days before returning to normal operations.
+
+The Occupant Emergency Plan (OEP) provides the response procedures for occupants of a facility in the event of a situation posing a potential threat to the health and safety of personnel, the environment, or property.
+
+Firewalking is a term used to describe how internal networks can be mapped from outside a firewall protected network by sending crafted ICMP packets with their TTL - Time To Live decremented to the number of hops to the external interface of the external firewall.
+
+Port Security or commonly known as switchport security is a method of controlling access to network media. Notably, a mechanism called VMPS - VLAN Membership Policy Server is a way to prevent unknown MAC Addresses from connecting to your network.
+
+The Brewer and Nash model was constructed to provide information security access controls that can change dynamically.
+
+Alternative routing is a method of routing information via an alternate medium such as copper cable or fiber optics. This involves use of different networks, circuits or end points should the normal network be unavailable. Diverse routing routes traffic through split cable facilities or duplicate cable facilities. This can be accomplished with different and/or duplicate cable sheaths.
+
+There is only one access control model that makes use of Label, Clearances, and Categories, it is Mandatory Access Control, none of the other one makes use of those items.
+
+LAN Acess - CSMA/CA,CD
+LAN transmission - Unicast, Broadcast
+
+Level B2 is the first level to require configuration management and this would also be a requirement for all higher levels.
+
+
+
+

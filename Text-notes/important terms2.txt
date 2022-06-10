@@ -1,0 +1,73 @@
+The more complex the system, the less assurance it provides. Which means more areas for vulnerability exist and more areas must be secured against threats. Less trustworthy the system is.
+Hardware – the collection of 0s and 1s that make up software and data stored within them. 
+Processor – Central processing unit CPU, generally called processor or microprocessor. It is the computer’s nerve center.
+It is the responsibility of operating system and compliers to translate high level language into assembly language instruction.
+Multitasking – handling two or more tasks simultaneously. A single core multi-tasking system 
+Multicore – today most CPU’s are multi core which means a chip containing 2,4,8 or potentially dozens of independent execution cores that can operate simultaneously
+Multiprocessing – a computing system with more than one processor (CPU)
+symmetric multiprocessing (SMP) -A system containing multiple processorsthat are treated equally and controlled by single Operating system.Processors share not only OS, also common data bus and memory resource.
+Massive parallel processing (MPP) it has 100’s or 1000’s of processors which has its own operating system and memory bus resources. Extremely powerful. And expensive.	
+Multiprogramming -Multiprogramming is a way to batch or serialize multiple processes. So that when one process stops to wait on a peripheral, its state is saved and next process in line to begin.
+Multithreading – it permits multiple concurrent tasks to be performed within single process unlike multitasking where multiple tasks take multiple process.
+often used in applications where frequent context switching between active process consumes excessive overhead and reduces efficiency.
+RING 0- OS AND KERNAL; RING 1- OTHER OS COMPONENTS (process switch and other operations; RING2 – DRIVERS, PROTOCALS; RING 3- USER LEVEL PROGRAMS AND APPLICATIONS.
+RING 0-2 Privileged mode or supervisory mode; ring 3 – user mode.
+Process consumes its entire chunk of processing time called time slice. 
+Waiting – also called blocked state. A process is waiting for device or access request to be served before it can continue processing
+Running-also called problem state
+A special part of the kernel, called program executive or process scheduler is always around, so that when a process state transition must occur, it can step in and handle the mechanics involved.
+security mode 1. security clearnace(manyata entry) , 2. access approval(Nvidia entry), 3. need to know(specific person meet)
+Dedicated mode- for all information need security clearance, access approval and need to know.
+system high mode-for all information need security clearance &access approval, but need to know only for some information.
+compartmented mode- for all information need security clearnace, but access approval for any information, all infor need to know.
+multilevel mode/controlled security mode -some users do not have clearance for all info and access approval , need to know for all system.This mode is exposed to the highest level of risk.
+Sensitivity level describe the level at which objects must be protected. Information labels prevent data over classification(Which assists in proper and accurate data labeling.)
+Read only memory (ROM) Nonvolatile- it is a memory that PC can read but cannot change
+Programmable ROM(PROM)- it is not burned at factory. It allows end user to burn in the chip’s content. Once content is written to a PROM Chip, can’t alter.
+EPROM-erasable ; -two types -UVEPROM- ultraviolet ; EEPROM-Electronically erasable.  A more flexible 
+EEPROM must be fully erased. Flash memory can be erased in blocks or pages. Most common type of flash memory is NAND flash.
+Random access memory (RAM)Volatile
+real memory-It is composed of dynamic RAM chips. Must be refreshed by CPU on periodic basis.
+Cache RAM- for better performance. Temporarily storing it. 
+Dynamic RAM uses series of capacitors and it is cheaper ; Static RAM uses logical device known as flip flop and runs faster than dynamic RAM.
+Register addressing – registers are small memory locations directly in the CPU. When CPU needs information from one of its registers to complete an operation.
+immediate addressing doesnt take it from memory. CPU is being told to add the value.
+Direct addressing -CPU is provided with actual address of the memory location to access. The address must be located on the same memory page as the instruction being executed. It is more flexible.
+Indirect addressing – memory address contains another memory address. CPU reads the indirect address to learn where actual data resides and then retrieves the data from that addres
+Base+offset addressing – it uses a value stored in one of the CPU’s register as the base location from which to begin counting. CPU adds the offset supplied 
+with the instruction to that base address and retrieves from the computed memory location.
+secondary memory-Page file is the most common type of virtual memory. 
+Sequential storage devices have to scan physically. Magnetic tap drivers is the examples.
+TEMPEST is a technology that allows the electronic emanations that every monitor produces(Van eck radiation) to be read from distance , this process is known as van eck phreaking. 
+Firmware -also known as microcode
+The BIOS is stored on EEPROM to facilitate version updates. The process of updating BIOS is known as “flashing the BIOS.
+There is an attack called” Phlashing, in which malicious is installed to remote control
+1. ARP Cache(mac to ip) ,2. DNS cache(domain name TO IP),3. Internet file cache.
+ARP , DNS  poisoning are one means of setting up man in the middle attack.
+Internet file cache will lead to split response attack and mobile script attack.
+DNS-TCP 53 is used for zone transfer and UDP 53 is for queries.
+Aggregation attacks are used to collect numerous low-level security items or low value items and combine them to create something of a higher security level or value.
+Inference- inference attacks combine several non-sensitive information to gain access to information that should be classified at higher level.It makes use of human’s mind than mathematical ways.
+Data dictionary is commonly used for storing critical information about data, including usage, types, sources, relationship and formats.
+DBMS reads data dictionary to determine access rights for users attempting access data.
+Data mining techniques result in the development of data models that can be used to predict future activity.
+The activity of data mining produces metadata. Metadata is data about data. Meta data is valuable. It is stored in a secure container known as data mart.
+Data analytics – it is the science of raw data examination with the focus of extracting useful information out of bulk information set. It is also called “big data.
+Large scale parallel data systems -AMP Asymmetric multiprocessing and SMP symmetric multiprocessing. in AMP, the processors are often operating independently, 
+each has its own OS or task instruction set. It is configured to execute only one specific code. It is called affinity.
+In SMP, process share OS and common memory. It works collectively on a single task, code or project. A variation of AMP is massive parallel programming (MPP)
+The hypervisor also known as the virtual machine monitor (VMM)-The computer running the hypervisor is known as host OS.
+OS running within a hypervisor supported virtual machine is known as guest OS. Type II hypervisor is a hosted hypervisor
+CASB Cloud access security broker-is to enforce and ensure that proper security measures are implemented between a cloud solution and a customer organization.
+SECaaS- security as a service – is a cloud provider in which security is provided to an organization through or by an online entity
+DCS can be analog or digital-to gather data and implement control over a large scale environment from a single solution is essential.
+PLC units are single purpose or focused purpose digital computers. It is deployed for automation of electromechanical operations. 
+SCADA system can operate as a stand-alone device. It is designed with minimal human interface. Often, they use mechanical buttons or knob or simple LCD screen interface
+Diddling attack is doing small changes, it is more often done by insiders than outsiders. It is an active attack.
+Salami attack- small amounts of money deducted from accounts regularly. Proper separation of duties will protect this issue.
+TOCTOU attacks are often called race conditions. It is also known as state attacks.
+A faraday cage is a special enclosure that acts as an EM capacitor. when it is used, no EM signal can enter or leave the enclosed area.
+Jamming or noise generators in use, it is difficult to retrieve the signal. Use control zone to protect signals . 
+
+
+

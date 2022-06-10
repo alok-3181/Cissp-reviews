@@ -1,0 +1,22 @@
+Dear All I am sharing Important Areas for CISSP which is mandatory 
+
+
+SDLC Process  
+BCP Process 
+Cryptography Attacks
+DES,AES,HASH Functions
+Database Security and countermeasure
+Polyinstantions
+Security Kernel ,
+TCB,TCSEC,Common Criteria,TPM Chip
+Firewall,IDS,IPS
+Sprinkler System types
+Extinguisher Types
+ISC2 Code of ethics
+Access Control Type and Catagories
+Kerberoes ,PKI
+SANDBOX,
+Mobile Code,
+Java Security Configuration Management
+Asset Managment
+Change Management 

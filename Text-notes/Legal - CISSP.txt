@@ -1,0 +1,276 @@
+Legal Regulations, Investigations, and Compliance
+
+Computer Assisted Crime
+	- computer is used as a tool to help carry out the crime
+Computer Targeted Crime
+	- computer is the victim of the crime
+Computer is Incidental to the Crime
+	- computer was not central to the commission of the crime
+
+Script Kiddies
+	- hackers that don't have the skills to hack on their own
+Advanced Persistent Threat (APT)
+	- custom designed malicious code built specifically for the intended target
+Safe Harbour Requirements
+	- non Europeans doing business with Europeans must adhere to 
+		these requirements for data privacy
+		- Notice
+		- Choice
+		- Onward transfer
+		- Security
+		- Data Integrity
+		- Access
+		- Enforcement
+Wassenaar Agreement
+	- Implements export controls on arms and dual use goods
+Types of Legal Systems
+	- civil (code law systems)
+		- system of law used in continental Europe
+		- rule based law (not precedence based)
+		- focused on codified or written laws
+		- most widespread legal system in the world
+	- common law
+		- developed in England
+		- based on previous interpretation of laws
+		- it reflects the communities morals and expectations
+		- uses judges and juries to decide cases
+		- subtypes of common law systems
+			- criminal
+				- based on common law, statutory law, or a combination of both
+				- addresses behavior considered harmful to society
+				- punishment usually involves loss of freedom or monetary fines
+			- civil / tort
+				- under civil law the defendant owes a legal duty to the victim
+				- the defendants breach of that duty causes injury to the victim
+			- administrative (regulatory law)
+				- laws created by administrative agencies
+				- innocent until proven guilty
+	- customary law
+		- based on traditions and customs
+		- restitution is commonly in the form of monetary fine or service
+	- religious law
+		- rather than creating laws, scholars and lawmakers 
+			attempt to discover the truth of the law
+	- mixed law systems
+		- two or more of the previous systems mixed together
+		
+Intellectual property law
+	- how a company or an individual can protect what it owns 
+		from unauthorized duplication or use
+Trade Secret Law
+	- trade secret is something that is proprietary to a 
+		company and is important for it's survival
+	- protects certain types of information or resources 
+		from unauthorized use or disclosure
+Copyright Law
+	- protects the rights of an author to control the public distribution, 
+		reproduction, display, and adaptation of their original work
+		- protects the expression of the idea of the resource, not the resource itself
+	- copyright protection is granted for life plus 50 years
+	- computer programs can be protected under copyright law as literary works
+Trademark
+	- used to protect a word, name, symbol, shape, 
+		sound, color or some combination of these
+	- 1883 was the Paris Convention
+	- 1891 was the Madrid Agreement
+	- currently trademarks are overseen by World Intellectual Property Organization (WIPO)
+Patent
+	- given to individuals or companies to grant them legal ownership of and or enable
+		them to exclude others from using or copying the invention covered by the patent
+	- the invention must be novel, useful, and not obvious
+	- a patent is the strongest form of intellectual property protection
+	- patents are typically granted for 20 years
+Software Piracy
+	- software licensing categories
+		- freeware
+		- shareware
+		- commercial
+		- academic
+	- Digital Millenium Copyright Act
+		- made it illegal to create products that circumvent copyright protection
+PII 
+	- Personally Identifiable Information
+Basel II
+	- determine the actual exposure to risk of each financial institution
+		- minimum capital requirements
+		- supervision
+		- market discipline
+Due Care vs Due Diligence
+	- Due care means that a company did all that it could resonably do to prevent
+		security breaches and if a security breach does take place, has steps in
+		place to mitigate the damage
+	- Due diligence means that the company investigated and properly identified all
+		possible vulnerabilities and weaknesses
+Due Care = acting responsibly
+Due Diligence = having as much information as possible to make the best decisions
+
+Responsibility
+	- obligations and expected actions of a particular party
+Accountability
+	- the ability to hold a party responsible for certain actions
+Proximate cause
+	- an act or omission that produces a consequence
+Incident Management
+	- primary goal is to contain and mitigate any damage caused by an incident and
+		to prevent any further damage
+	- Incident handling should be closely linked to security training and awareness
+	- Incident response team
+		- ensure that there is a group of properly trained individuals that
+			can follow a standard set of procedures when responding to an event
+		- Virtual Team
+			- ghost team made of experts from different areas that are not 
+				located together
+		- Permanent Team
+			- dedicated to incidence response
+		- Hybrid Team
+			- some virtual, some dedicated
+Incident Response Procedures
+	1) Triage
+		- looking at all available information
+		- set priorities on how to deal with the incident
+	2) Investigation
+		- proper collection of relevant data to be used in later stages
+	3) Containment
+		- damage must be mitigated
+		- physical and/or logical controls
+	4) Analysis
+		- looking at all data gathered to understand root cause
+		- *must report findings ongoing to senior management
+	5) Tracking
+		- could take place in parallel with analysis
+		- determine whether source of incident was internal or external
+	6) Recovery
+		- implement necessary fixes to ensure incident does not happen again
+
+* Management needs to make the decision as to whether or not law enforcement should
+	be called in to investigate a security breach
+	
+Computer Forensics
+	- a science that is focused on all domains in which evidence is in a digital
+		or electronic form
+	- motive
+		- the who and the why of a crime
+	- opportunity
+		- the where and the when of a crime
+	- means
+		- the abilities of a criminal to be successful
+	- Locard's Principle of Exchange
+		- a criminal will leave something behind and will take something
+			with them when committing a crime
+Forensics Investigation Process
+	1) Identification
+		- what kind of evidence are we finding
+	2) Preservation
+		- make sure the evidence is secured, preserved
+		- create cloned image of primary evidence
+		- chain of custody
+		- time synchronization
+	3) Collection
+		- safely collecting the evidence, following standard procedures
+		- are there legal requirements
+	4) Examination
+		- forensically examining the evidence, without modifying it in any way
+		- looking for hidden evidence and extracting it
+		- pattern matching
+	5) Analysis
+		- examine the evidence
+		- more thorough examination
+		- traceability
+		- data mining
+		- statistical analysis
+	6) Presentation
+		- summary
+		- present to interested parties
+	7) Decision
+		- decide what the outcome is of the investigation
+Primary Image
+	- the evidentiary evidence
+	- initial piece of evidence
+	- hashed to prove it has not been modified
+Working Image
+	- exact duplicate of evidence
+	- hashed to prove it has not been modified
+	- investigation is performed on this image
+	
+	
+Where is volatile data found?
+	- registers and cache
+	- process tables
+	- arp cache
+	- system memory
+	- temporary file systems
+	- special disk sectors
+Chain of Custody of Evidence
+	- history of everything that is done to this evidence
+Lifecycle of Evidence
+	- collection and identification
+	- storage, preservation, and transportation
+	- presentation in court
+	- return of evidence to owner
+	
+- Types of Evidence
+	- Best Evidence
+		- Primary evidence used in a trial because it provides the most reliability
+	- Secondary Evidence
+		- Oral and copies of original documents
+	- Direct Evidence
+		- Can prove a fact all by itself and does not need any backup information. 
+	- Conclusive Evidence
+		- Cannot be contradicted
+	- Circumstantial Evidence
+		- Can prove an intermediate fact that can then be used to deduce or assume the existence of another fact
+	- Corroborative Evidence
+		- Supporting evidence used to help prove an idea or point
+		- Supplementary to primary evidence
+	- Opinion Evidence
+		- The opinion rule says that witnesses must testify to only the facts of the issue and not their opinion of the facts
+	- Hearsay Evidence
+		- Second-hand evidence that has no first-hand proof of accuracy or reliability
+
+		
+- Foundation of Admissibility for Evidence
+	- Procedures for collecting and maintaining
+	- Proof of how errors were avoided
+	- Identification of custodian
+	- Explanations for:
+		- Why certain actions were taken
+		- Why specific procedures were bypassed
+- For the evidence to be considered complete it must present the whole truth of an issue 
+- For the evidence to be sufficient it must be persuasive enough to convince a reasonable person
+- For the evidence to be reliable it must be consistent with the facts (factual, not circumstantial)
+
+- Exigent Circumstances
+	- If there is an impending possibility that evidence may be destroyed law enforcement may act to seize the evidence in order to prevent its destruction.
+- Enticement
+	- Is legal and ethical
+	- Giving something the opportunity to make a bad decision
+- Entrapment
+	- Not legal or ethical
+	- Tricking somebody into making a bad decision
+
+	
+- Attack types
+	- Salami Attack
+		- Committing several small crimes with the hope that the large crime will go unnoticed
+	- Data Diddling
+		- Alteration of existing data
+	- Password Sniffing
+	- IP Spoofing
+		- Can also be called masquerading
+	- Dumpster Diving
+		- Form of social engineering
+	- Wire-tapping
+		- Considered to be a passive attack
+	- Cyber Squatting
+
+	
+- (ISC)2 Code of Ethics
+	- https://www.isc2.org/ethics
+	- Code of Ethics Preamble:   
+		- The safety and welfare of society and the common good, duty to our principals, and to each other, requires that we adhere, and be seen to adhere, to the highest ethical standards of behavior.
+		- Therefore, strict adherence to this Code is a condition of certification.
+	- Code of Ethics Canons:   
+		- Protect society, the common good, necessary public trust and confidence, and the infrastructure.
+		- Act honorably, honestly, justly, responsibly, and legally.
+		- Provide diligent and competent service to principals.
+		- Advance and protect the profession.

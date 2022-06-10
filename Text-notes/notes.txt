@@ -1,0 +1,59 @@
+ethernet frame check sequance
+linear cryptanalysis
+OAuth, oauth connect, oauth2.01, 1.0
+IPV6
+normal froms db
+
+
+active x control isa client based technology uses digital certificate
+pointer encoding is a buffer overflow protection mechanism that micrsoft recommends.
+
+read about photoelectric, micrwave, utltrsonic, passive infra
+
+delaying is the primary security perimeter
+
+oauth 2.0 is authorization framework that provides third party application with delegated access to resoruce without providing owners credential to application
+oauth2.0 in RFC 6749, oauth 1.0 is RFC5849
+
+open id and open id connect is for decentralized authentication. it provides you one login for multiple sites.
+
+offshoring is another country
+read about isc2 ethics from isc2 website
+
+ITIL Was created by CCTA
+abstraction is hiding
+READ about SDLC, HDLC
+csma/CD Uses half duplex ethernet
+fiber optic is immune to unauthrozied interception
+
+
+EPA approved substitues for Halon are FM200. FM13. CEA-410. NAF-SIII, Argon, inergen and aero-K
+
+every combination- brute force attack
+database dictonary- dictonary attack
+against hash table- rainbow attack.
+
+patent requires public disclosure, trade secret is kept secured.
+Frequency analysis attack happens when the attacker has access to encrypted message , but no other information
+clerk-wilson model is also called restricted interface model
+security label provides against tampering as it is always attached to the object
+MTBF/MTTF is to rate the life expentancy
+SABTOAGE IS a criminal act
+behaviour based IDS is called expert system
+Systems running in system-high mode are authorized to process data at different classification levels only if all system users have access to the highest level of classification processed.
+The modified waterfall process differs from the standard waterfall process by adding validation and verification phases.
+Control signing utilizes a system of digital signatures to ensure that the code originates from a trusted source. 
+-It is up to the end user to determine whether the authenticated source should be trusted.
+The Communications Assistance to Law Enforcement Act (CALEA) requires all communications carriers to make wiretaps possible for law enforcement with an appropriate court order.
+Trade secrets are one of the best legal protections for computer software.
+The parol evidence rule states that a written contract is assumed to contain all the terms of an agreement and cannot be modified by a verbal agreement.
+Phone phreaking attacks are designed to obtain service while avoiding financial costs.
+Recovery access control is deployed to repair or restore resources, functions, and capabilities after a violation of security policies.
+In penetration testing (or hacking in general), a pivot is the action or ability to compromise a system and then using the privileges or accessed gained through the attack to focus attention on another target that may not have been visible or exploitable initially. 
+It is the ability to adjust the focus or the target of an intrusion after an initial foothold is gained
+Elliptic Curve Diffie-Hellman Ephemeral, or Elliptic Curve Ephemeral Diffie-Hellman (ECDHE), implements perfect forward secrecy through the use of elliptic curve cryptography (ECC).
+ PBKDF2 is an example of a key-stretching technology not directly supporting perfect forward secrecy. HMAC is a hashing function. OCSP is used to check for certificate revocation.
+
+Privacy impact assessment - GDPR audit
+1. what information is collected? why the info is collected? source of the information ? how it is collected? what are the risks ?
+

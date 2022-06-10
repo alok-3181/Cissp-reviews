@@ -1,0 +1,146 @@
+CISSP – Physical & Environmental Security
+
+Bollard 
+- crash barrier
+- prevent direct drive up access
+
+Natural Surveillance
+- clear surrounding to remove hiding spots
+- build on hill to see whats approaching
+Guards in common access areas or lobbies
+
+Issues selecting site
+- Is it visible
+- External areas, what else is in the area
+- How close are emergency services and utilities
+- Accessibility
+- How prone is the area to natural disasters
+
+Mantraps
+
+Door types
+- fail safe
+- fail secure
+
+Locations
+- drop ceilings - could give access to secure areas
+- firewalls that extend to ceilings
+- wiring closets are secure, single point of access
+- audio sensors
+- cameras
+
+Power
+- electromagnetic interference
+- motors
+- cordless phones
+- microwaves
+- radio frequency interference
+- florescent lights
+- power excess
+- spike
+- surge
+- power loss
+- fault
+- blackout
+- power degradation
+- sag
+- brownout
+- in rush current
+Water
+- broken pipes
+- have drains with positive pressure
+
+Air
+- HVAC systems
+- over pressure
+- measure for humidity
+- hygrometer used to measure humidity
+- range should be 40% - 60%
+- measure for temperature
+- thermometer
+- range should be 70F - 74F degrees
+
+Fire Detection and Prevention
+- Life comes first!!
+
+- Prevention
+- user education
+- drills
+- Detection
+- when prevention fails
+- smoke activated detectors
+- heat activated detectors
+- temperature based
+- sprinkler heads
+- Suppression
+- stop the fire as quickly as possible
+- fire ratings for extinguisher
+- Class A
+- common combustibles
+- water or foam based
+- Class B
+- liquid fire
+- gas or CO2 based
+- not water
+- Class C
+- electrical fire
+- gas or CO2 
+- no water
+- Class D
+- chemical combustibles
+- dry powder only
+- no water
+- Plenum grade cabling
+- smolder, slow the spread
+Gas suppression systems
+- no longer use halon	
+- FM200 has replaced halon
+- Montreal Protocol
+- banned the use of halon 
+- is a greenhouse gas, damage the environment or ozone layer
+Water suppression systems
+- wet pipe systems
+- fully charged
+- water is in the pipe
+- dry pipe system
+- water is in holding tank
+- no water in pipe initially
+- preaction
+- pipes are pressurized with air
+- air is replaced with water
+- deluge
+- sprinkler heads are wide open
+- largest volume of water can be dispensed
+Locks
+- delay device
+- mechanical locks
+- padlocks (warded)
+- combination locks
+- tumbler lock
+- cipher locks
+- cable locks
+- lock bumping
+Piggybacking
+- one swipe and multiple access
+Fencing
+- 3-4 ft casual deterrent
+- 6-7 ft better deterrent
+- 8ft and up best deterrent
+- gauge and mesh size
+- pidas fencing
+- interwoven mesh of wiring
+Lighting
+- total coverage if possible
+- no islands of lighting
+- critical areas should have 8ft coverage overlap with 2 ft/candle
+- should point away, not at guards, glare protection
+Cameras
+- CCTV
+- fixed focal lens
+- varied focal lens can zoom
+- depth of field
+- iris, manual or automatic
+Acoustic monitoring
+Smoke detection
+Electrical monitoring
+Temperature monitoring

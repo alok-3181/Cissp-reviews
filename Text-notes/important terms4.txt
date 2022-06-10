@@ -1,0 +1,73 @@
+HTTP- tcp based
+Radius- UDP
+SMB- tcp
+imap-tcp
+SNMP-udp
+NTP-udp
+tftp-udp
+DNS-name reslution - udp
+smtp-tcp
+secure ldap-tcp
+BGP-TCP
+DHCP-UDP
+anything starts with 2 & 3, globally routable IP - 8 blocks. g should not be there. it should be f
+anything starts with f, locally routalble Ip address.
+anything starts with ff and ending ee is multicast and globally routable IP address
+LAND attack - both source and destiation IP are same
+teardrop- fragemtnation packets attack. reassemble .
+fraggle attack -udp ; sumrf- icmp
+Presentation layer encapsulates the message by adding information to it, called header, at times end of the message, called footer.
+Application layer- data stream until it reaches transport layer. In transport layer it is called segment or datagram (TCP protocols)UDP ;
+In network layer it is packet. In datalink layer it is frame. In physical layer -bits.
+Physical layer- bits to frame and frame to bit conversion. SONET, HSSI, V.24 and V.35 , x.21, EIA/tia232,449, NIC at physical layer, hubs, repeaters, concentrators and amplifiers.
+Ethernet(IEEE 802.3) , token ring(IEEE 802.5), 
+data link layer-Protocols in this layer are SLIP, PPP,ARP, L2F, L2TP, PPTP, ISDN. 
+media access control which is a 6byte -48 bits binary address(MAC address).
+The first 3 bytes denote the vendor or manufacture of the physical network interface.This is known as organizationally unique identifier(OUI).
+Last 3 bytes represent unique number to that interface by the vendor
+Network layer – ICMP, RIP, OSPF, BGP, IGMP, IP, IPSEC, IPX, NAT, SKIP. 
+network layer is responsible for routing information but doesn’t guarantee verifying. Verifying is the role of transport layer.
+Network layer manages error detection/traffic control.
+Non IP protocols are IPX, Appletalk and NetBEUI.
+Two routing protocols – Distance vector -it maintains the destination networks along with metrics of direction, distance and hops. RIP and IGRP are distance vector protocols
+Link state maintain topography map to find shortest path to the destination.
+Transport layer – responsible for managing the integrity of the connection and controlling the session. It accepts a PDU(Payload data unit). 
+Transport layer does segmentation, sequencing, error checking, controlling the flow of data, error correction, multiplexing and network service optimization. Protocols are TCP, UDP, SPX, SSL and TLS.
+session layer Protocols are NFS, SQL, RPC.
+presentation layer -ASCII, EBCDICM, TIFF, JPEG, MPEG, MIDI
+Applicaiton layer -HTTP, FTP, LPD, SMTP, Telnet, TFTP, EDI, POP3, IMAP, SNMP, NNTP, SET. Gateway works at application layer.
+TCP/IP Model – also called DARPA or DOD model. Consists of four layers. 1. Application (also known as process), 2 Transport(host to host) ,3 Internet(internetworking ) , Link(network interface)
+TCP wrapper is an application that can server as a basic firewall by restricting access to ports and resources based on user IDs or user system IDs. Using TCP wrappers is a form of port-based protocol
+Transport layer protocols -TCP is full duplex and UDP is simplex.
+The combination of IP address and port is known as Socket. 
+TCP-Data flow is controlled through a mechanism called sliding window
+TCP header is 20 -60 bytes long. TCP field value is 6.
+UDP field value is 17. Four parts, source, destination address, message length and checksum
+IPV4 use 34 bit addressing scheme. IPV6 uses 128bits.
+icmp-Codes – 0 echo reply , 3- destination unreachable , 5-redirect, 8-echo request ,9- router advertisement , 10- router solicitation , 11- time exceeded.
+TCP/IP is a multilayer protocol. Vlan hopping attack- is performed by creating a double encapsulated IEEE 802.1Q Vlan tag.
+Total length of FQDN can’t exceed 253 characters.Any single section can’t exceed 63 characters. 
+converged protocals are Fcoe, mpls, voip, sdn, iscsi.
+Wireless access points should be configured to work in infrastructure mode, not ad hoc mode.
+Stand -alone – connecting two wireless clients ; wired extension – when the wireless access point act as a connection point to link the wireless clients to wired network. 
+An enterprise extended – when multiple wireless access points are used to connect large physical area to the same wired network.
+Bridge mode is used when wireless connection connects two wired connection
+WEP uses RC4.WPA uses LEAP and TKIP, WPA2 uses CCMP(AES)
+PEAP provides encryption for EAP methods.
+CCMP- it uses 128 bit key - 802.11i
+Thinnet also known as 10Base2- 185 meters and 10Mbps throughput. Used for connecting to backbone trunks of thicknet. 
+Thicknet also known as 10Base5 , 500 meter and 10Mbps throughput
+UTP is often referred as 10baseT, 100BaseT or 1000BaseT.
+FHSS- frequency hopping spread spectrum- not in parallel. It is in serial , changing the frequency frequently.
+DSSS- Direct sequence spread spectrum – in parallel. This provides higher rate of data throughput than FHSS.
+OFDM-Orthogonal frequency division multiplexing – it employs digital multicarrier modulation scheme. Signals are perpendicular.
+Bluetooth 802.15 
+bluejacking- allows an attacker to send SMS to your device
+Bluesnarfing allows hacker to connect your Bluetooth devices without your knowledge and extract information
+Bluebugging is an attack that grants hackers remote control over the feature and function of Bluetooth device. This can turn on micrphone to use the phone as an audio 
+Generally Bluetooth range is 30 ft some have 100 meters.
+CSMA/CD- collision detection -it listens for collision. If detected it transmits jam signal
+Token passing -using digital token . it prevents collision. 	
+Polling -using master -slave configuration.SDLC uses polling. Primary systems ask secondary system whether to transmit data.
+
+
